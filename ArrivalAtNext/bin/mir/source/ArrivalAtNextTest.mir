@@ -1,0 +1,518 @@
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 3; ]
+import Toybox.Test;
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 4; ]
+import Toybox.Time;
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 5; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 7; ]
+class MockActivityInfoNullElapsedTime extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 8; @position = 6; ]
+    var elapsedTime = null;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 10; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_10_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 11 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_10_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 15; test = true; ]
+function nullElapsedTime(logger) {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_16_33_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 17 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "If current lap time is zero return Unknown";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 18 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_16_33_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_16_33_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :ArrivalAtNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 19 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_16_33_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_16_33_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoNullElapsedTime;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 20 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_16_33_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_16_33_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 21 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "Unknown";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 22 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_16_33_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 25; ]
+class MockActivityInfoZeroElapsedTime extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 25; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 25; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 26; @position = 6; ]
+    var elapsedTime = 0;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 28; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_28_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 29 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_28_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 33; test = true; ]
+function zeroElapsedTime(logger) {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_34_33_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 35 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "If current lap speed is zero return Unknown";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 36 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_34_33_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_34_33_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :ArrivalAtNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 37 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_34_33_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_34_33_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoZeroElapsedTime;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 38 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_34_33_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_34_33_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 39 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "Unknown";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 40 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_34_33_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 43; ]
+class MockActivityInfoWithoutLap extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 43; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 43; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 44; @position = 6; ]
+    var elapsedTime = 60000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 45; @position = 6; ]
+    var elapsedDistance = 500;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 46; @position = 6; ]
+    var distanceToNextPoint = 100000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 48; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_48_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 49 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_48_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 53; test = true; ]
+function withoutLap(logger) {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 55 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Returns ETA without lap";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 56 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :ArrivalAtNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 57 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoWithoutLap;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 58 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 59 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_stop" ]
+    %timeToNext.4 = local;
+    %tmp.19 = getm $.Toybox.Time;
+    %tmp.20 = getv function ? %tmp.19 :Duration;
+    %tmp.21 = 12000;
+    %tmp.17 = newc %tmp.20 (%tmp.21);
+    lputv %timeToNext.4 %tmp.17;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 60 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_stop" ]
+    %eta.5 = local;
+    %tmp.22 = getm $.Toybox.Time.Gregorian;
+    %tmp.23 = getv function %tmp.22 :info;
+    %tmp.24 = getm $.Toybox.Time;
+    %tmp.25 = getv function %tmp.24 :now;
+    %tmp.26 = invoke %tmp.24 %tmp.25();
+    %tmp.27 = getv function %tmp.26 :add;
+    %tmp.29 = lgetv %timeToNext.4;
+    %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.29);
+    %tmp.31 = getm $.Toybox.Time;
+    %tmp.32 = getv %tmp.31 :FORMAT_SHORT;
+    %tmp.33 = invoke %tmp.22 %tmp.23(%tmp.30, %tmp.32);
+    lputv %eta.5 %tmp.33;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 61 4 ]
+    %tmp.34 = getm $.Toybox.Test;
+    %tmp.35 = getv function %tmp.34 :assertEqual;
+    %tmp.37 = lgetv %value.3;
+    %tmp.38 = getm $.Toybox.Lang;
+    %tmp.39 = getv function %tmp.38 :format;
+    %tmp.40 = "$1$:$2$";
+    %tmp.41 = newa 2;
+    %tmp.42 = lgetv %eta.5;
+    %tmp.43 = getv %tmp.42 :hour;
+    %tmp.44 = getv function %tmp.43 :format;
+    %tmp.45 = "%d";
+    %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+    %tmp.47 = dup %tmp.41;
+    %tmp.48 = aputv %tmp.47 0 %tmp.46;
+    %tmp.49 = lgetv %eta.5;
+    %tmp.50 = getv %tmp.49 :min;
+    %tmp.51 = getv function %tmp.50 :format;
+    %tmp.52 = "%02d";
+    %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+    %tmp.54 = dup %tmp.48;
+    %tmp.55 = aputv %tmp.54 1 %tmp.53;
+    %tmp.56 = invoke %tmp.38 %tmp.39(%tmp.40, %tmp.55);
+    invoke %tmp.34 %tmp.35(%tmp.37, %tmp.56);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 68 4 ]
+    %tmp.57 = true;
+    ret %tmp.57;
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_54_28_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 71; ]
+class MockActivityInfoDistanceWithoutLap extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 71; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 71; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 72; @position = 6; ]
+    var elapsedTime = 60000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 73; @position = 6; ]
+    var elapsedDistance = 500;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 74; @position = 6; ]
+    var distanceToDestination = 50000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 76; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_76_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 77 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_76_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 81; test = true; ]
+function distanceWithoutLap(logger) {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 83 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Returns ETA to distance without lap";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 84 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :ArrivalAtNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 85 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoDistanceWithoutLap;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 86 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 87 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_stop" ]
+    %timeToNext.4 = local;
+    %tmp.19 = getm $.Toybox.Time;
+    %tmp.20 = getv function ? %tmp.19 :Duration;
+    %tmp.21 = 6000;
+    %tmp.17 = newc %tmp.20 (%tmp.21);
+    lputv %timeToNext.4 %tmp.17;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 88 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_stop" ]
+    %eta.5 = local;
+    %tmp.22 = getm $.Toybox.Time.Gregorian;
+    %tmp.23 = getv function %tmp.22 :info;
+    %tmp.24 = getm $.Toybox.Time;
+    %tmp.25 = getv function %tmp.24 :now;
+    %tmp.26 = invoke %tmp.24 %tmp.25();
+    %tmp.27 = getv function %tmp.26 :add;
+    %tmp.29 = lgetv %timeToNext.4;
+    %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.29);
+    %tmp.31 = getm $.Toybox.Time;
+    %tmp.32 = getv %tmp.31 :FORMAT_SHORT;
+    %tmp.33 = invoke %tmp.22 %tmp.23(%tmp.30, %tmp.32);
+    lputv %eta.5 %tmp.33;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 89 4 ]
+    %tmp.34 = lgetv %logger;
+    %tmp.35 = getv function %tmp.34 :debug;
+    %tmp.37 = lgetv %value.3;
+    invoke %tmp.34 %tmp.35(%tmp.37);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 90 4 ]
+    %tmp.38 = lgetv %logger;
+    %tmp.39 = getv function %tmp.38 :debug;
+    %tmp.40 = getm $.Toybox.Lang;
+    %tmp.41 = getv function %tmp.40 :format;
+    %tmp.42 = "$1$:$2$";
+    %tmp.43 = newa 2;
+    %tmp.44 = lgetv %eta.5;
+    %tmp.45 = getv %tmp.44 :hour;
+    %tmp.46 = getv function %tmp.45 :format;
+    %tmp.47 = "%d";
+    %tmp.48 = invoke %tmp.45 %tmp.46(%tmp.47);
+    %tmp.49 = dup %tmp.43;
+    %tmp.50 = aputv %tmp.49 0 %tmp.48;
+    %tmp.51 = lgetv %eta.5;
+    %tmp.52 = getv %tmp.51 :min;
+    %tmp.53 = getv function %tmp.52 :format;
+    %tmp.54 = "%02d";
+    %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+    %tmp.56 = dup %tmp.50;
+    %tmp.57 = aputv %tmp.56 1 %tmp.55;
+    %tmp.58 = invoke %tmp.40 %tmp.41(%tmp.42, %tmp.57);
+    invoke %tmp.38 %tmp.39(%tmp.58);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 97 4 ]
+    %tmp.59 = getm $.Toybox.Test;
+    %tmp.60 = getv function %tmp.59 :assertEqual;
+    %tmp.62 = lgetv %value.3;
+    %tmp.63 = getm $.Toybox.Lang;
+    %tmp.64 = getv function %tmp.63 :format;
+    %tmp.65 = "$1$:$2$";
+    %tmp.66 = newa 2;
+    %tmp.67 = lgetv %eta.5;
+    %tmp.68 = getv %tmp.67 :hour;
+    %tmp.69 = 12;
+    %tmp.70 = sub %tmp.68 %tmp.69;
+    %tmp.71 = getv function %tmp.70 :format;
+    %tmp.72 = "%d";
+    %tmp.73 = invoke %tmp.70 %tmp.71(%tmp.72);
+    %tmp.74 = dup %tmp.66;
+    %tmp.75 = aputv %tmp.74 0 %tmp.73;
+    %tmp.76 = lgetv %eta.5;
+    %tmp.77 = getv %tmp.76 :min;
+    %tmp.78 = getv function %tmp.77 :format;
+    %tmp.79 = "%02d";
+    %tmp.80 = invoke %tmp.77 %tmp.78(%tmp.79);
+    %tmp.81 = dup %tmp.75;
+    %tmp.82 = aputv %tmp.81 1 %tmp.80;
+    %tmp.83 = invoke %tmp.63 %tmp.64(%tmp.65, %tmp.82);
+    invoke %tmp.59 %tmp.60(%tmp.62, %tmp.83);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 104 4 ]
+    %tmp.84 = true;
+    ret %tmp.84;
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_82_36_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 107; ]
+class MockActivityInfoWithLap extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 107; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 107; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 108; @position = 6; ]
+    var elapsedTime = 60000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 109; @position = 6; ]
+    var elapsedDistance = 500;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 110; @position = 6; ]
+    var distanceToNextPoint = 100000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 112; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_112_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 113 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_112_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 117; ]
+class MockArrivalAtNextView extends ArrivalAtNextView{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 117; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 117; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 118; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_118_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 119 4 ]
+        %tmp.2 = getv ? :ArrivalAtNextView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 120 4 ]
+        %tmp.4 = 250;
+        %tmp.5 = getv function %tmp.4 :toFloat;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        putv self :lapStartDistance %tmp.6;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 121 4 ]
+        %tmp.7 = 50000;
+        putv self :lapStartTime %tmp.7;
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_118_24_stop:
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 124; ]
+    function is24Hour() {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_124_22_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 125 4 ]
+        %tmp.1 = true;
+        ret %tmp.1;
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_124_22_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 129; test = true; ]
+function distanceWithLap24Hour(logger) {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 131 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Returns ETA to distance with lap in 24 hour format";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 132 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :MockArrivalAtNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 133 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoWithLap;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 134 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 135 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_stop" ]
+    %timeToNext.4 = local;
+    %tmp.19 = getm $.Toybox.Time;
+    %tmp.20 = getv function ? %tmp.19 :Duration;
+    %tmp.21 = 4000;
+    %tmp.17 = newc %tmp.20 (%tmp.21);
+    lputv %timeToNext.4 %tmp.17;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 136 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_stop" ]
+    %eta.5 = local;
+    %tmp.22 = getm $.Toybox.Time.Gregorian;
+    %tmp.23 = getv function %tmp.22 :info;
+    %tmp.24 = getm $.Toybox.Time;
+    %tmp.25 = getv function %tmp.24 :now;
+    %tmp.26 = invoke %tmp.24 %tmp.25();
+    %tmp.27 = getv function %tmp.26 :add;
+    %tmp.29 = lgetv %timeToNext.4;
+    %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.29);
+    %tmp.31 = getm $.Toybox.Time;
+    %tmp.32 = getv %tmp.31 :FORMAT_SHORT;
+    %tmp.33 = invoke %tmp.22 %tmp.23(%tmp.30, %tmp.32);
+    lputv %eta.5 %tmp.33;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 137 4 ]
+    %tmp.34 = getm $.Toybox.Test;
+    %tmp.35 = getv function %tmp.34 :assertEqual;
+    %tmp.37 = lgetv %value.3;
+    %tmp.38 = getm $.Toybox.Lang;
+    %tmp.39 = getv function %tmp.38 :format;
+    %tmp.40 = "$1$:$2$";
+    %tmp.41 = newa 2;
+    %tmp.42 = lgetv %eta.5;
+    %tmp.43 = getv %tmp.42 :hour;
+    %tmp.44 = getv function %tmp.43 :format;
+    %tmp.45 = "%d";
+    %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+    %tmp.47 = dup %tmp.41;
+    %tmp.48 = aputv %tmp.47 0 %tmp.46;
+    %tmp.49 = lgetv %eta.5;
+    %tmp.50 = getv %tmp.49 :min;
+    %tmp.51 = getv function %tmp.50 :format;
+    %tmp.52 = "%02d";
+    %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+    %tmp.54 = dup %tmp.48;
+    %tmp.55 = aputv %tmp.54 1 %tmp.53;
+    %tmp.56 = invoke %tmp.38 %tmp.39(%tmp.40, %tmp.55);
+    invoke %tmp.34 %tmp.35(%tmp.37, %tmp.56);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc" 144 4 ]
+    %tmp.57 = true;
+    ret %tmp.57;
+_Users_mattdavies_Code_pedalgeek_ArrivalAtNext_source_ArrivalAtNextTest_mc_130_39_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtNext/source/ArrivalAtNextTest.mc"; @line = 1; ]
+<init> {
+}

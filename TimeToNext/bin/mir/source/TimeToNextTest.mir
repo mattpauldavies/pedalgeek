@@ -1,0 +1,374 @@
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 2; ]
+import Toybox.Test;
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 5; ]
+class MockActivityInfoNullElapsedTime extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 6; @position = 6; ]
+    var elapsedTime = null;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 8; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_8_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 9 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_8_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 13; test = true; ]
+function nullElapsedTime(logger) {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_14_33_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 15 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "If current lap time is zero return Unknown";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 16 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_14_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_14_33_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :TimeToNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 17 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_14_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_14_33_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoNullElapsedTime;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 18 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_14_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_14_33_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 19 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "Unknown";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 20 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_14_33_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 23; ]
+class MockActivityInfoZeroElapsedTime extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 23; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 23; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 24; @position = 6; ]
+    var elapsedTime = 0;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 26; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_26_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 27 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_26_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 31; test = true; ]
+function zeroElapsedTime(logger) {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_32_33_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 33 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "If current lap speed is zero return Unknown";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 34 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_32_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_32_33_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :TimeToNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 35 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_32_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_32_33_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoZeroElapsedTime;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 36 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_32_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_32_33_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 37 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "Unknown";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 38 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_32_33_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 41; ]
+class MockActivityInfoWithoutLap extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 41; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 41; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 42; @position = 6; ]
+    var elapsedTime = 60000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 43; @position = 6; ]
+    var elapsedDistance = 500;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 44; @position = 6; ]
+    var distanceToNextPoint = 100000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 46; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_46_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 47 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_46_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 51; test = true; ]
+function withoutLap(logger) {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_52_28_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 53 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Returns time to next without lap";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 54 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_52_28_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_52_28_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :TimeToNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 55 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_52_28_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_52_28_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoWithoutLap;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 56 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_52_28_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_52_28_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 57 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.19 = lgetv %value.3;
+    %tmp.20 = getv function %tmp.19 :value;
+    %tmp.21 = invoke %tmp.19 %tmp.20();
+    %tmp.24 = getm $.Toybox.Time;
+    %tmp.25 = getv function ? %tmp.24 :Duration;
+    %tmp.26 = 12000;
+    %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+    %tmp.28 = getv function ? %tmp.27 :value;
+    %tmp.22 = newc %tmp.28 ();
+    invoke %tmp.17 %tmp.18(%tmp.21, %tmp.22);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 58 4 ]
+    %tmp.29 = true;
+    ret %tmp.29;
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_52_28_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 61; ]
+class MockActivityInfoDistanceWithoutLap extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 61; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 61; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 62; @position = 6; ]
+    var elapsedTime = 60000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 63; @position = 6; ]
+    var elapsedDistance = 500;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 64; @position = 6; ]
+    var distanceToDestination = 50000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 66; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_66_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 67 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_66_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 71; test = true; ]
+function distanceWithoutLap(logger) {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_72_36_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 73 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Returns time to distance without lap";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 74 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_72_36_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_72_36_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :TimeToNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 75 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_72_36_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_72_36_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoDistanceWithoutLap;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 76 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_72_36_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_72_36_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 77 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.19 = lgetv %value.3;
+    %tmp.20 = getv function %tmp.19 :value;
+    %tmp.21 = invoke %tmp.19 %tmp.20();
+    %tmp.24 = getm $.Toybox.Time;
+    %tmp.25 = getv function ? %tmp.24 :Duration;
+    %tmp.26 = 6000;
+    %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+    %tmp.28 = getv function ? %tmp.27 :value;
+    %tmp.22 = newc %tmp.28 ();
+    invoke %tmp.17 %tmp.18(%tmp.21, %tmp.22);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 78 4 ]
+    %tmp.29 = true;
+    ret %tmp.29;
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_72_36_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 81; ]
+class MockActivityInfoWithLap extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 81; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 81; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 82; @position = 6; ]
+    var elapsedTime = 60000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 83; @position = 6; ]
+    var elapsedDistance = 500;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 84; @position = 6; ]
+    var distanceToNextPoint = 100000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 86; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_86_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 87 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_86_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 91; ]
+class MockTimeToNextView extends TimeToNextView{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 91; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 91; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 92; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_92_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 93 4 ]
+        %tmp.2 = getv ? :TimeToNextView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 94 4 ]
+        %tmp.4 = 250;
+        %tmp.5 = getv function %tmp.4 :toFloat;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        putv self :lapStartDistance %tmp.6;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 95 4 ]
+        %tmp.7 = 50000;
+        putv self :lapStartTime %tmp.7;
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_92_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 99; test = true; ]
+function distanceWithLap(logger) {
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_100_33_start:
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 101 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Returns time to distance with lap";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 102 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_100_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_100_33_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :MockTimeToNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 103 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_100_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_100_33_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoWithLap;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 104 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_100_33_start" "_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_100_33_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 105 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.19 = lgetv %value.3;
+    %tmp.20 = getv function %tmp.19 :value;
+    %tmp.21 = invoke %tmp.19 %tmp.20();
+    %tmp.24 = getm $.Toybox.Time;
+    %tmp.25 = getv function ? %tmp.24 :Duration;
+    %tmp.26 = 4000;
+    %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+    %tmp.28 = getv function ? %tmp.27 :value;
+    %tmp.22 = newc %tmp.28 ();
+    invoke %tmp.17 %tmp.18(%tmp.21, %tmp.22);
+[ "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc" 106 4 ]
+    %tmp.29 = true;
+    ret %tmp.29;
+_Users_mattdavies_Code_pedalgeek_TimeToNext_source_TimeToNextTest_mc_100_33_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TimeToNext/source/TimeToNextTest.mc"; @line = 1; ]
+<init> {
+}

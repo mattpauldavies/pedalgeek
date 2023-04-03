@@ -1,0 +1,193 @@
+[ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 6; ]
+class TotalStoppedView extends WatchUi.SimpleDataField{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 8; @position = 15; ]
+    protected
+    var lastStoppedAt as Number;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 9; @position = 15; ]
+    protected
+    var previouslyComputedStop as Number;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 10; @position = 15; ]
+    protected
+    var totalStopped as Number;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 12; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_12_26_start:
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 13 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 14 8 ]
+        %tmp.4 = "STOP TOTAL";
+        putv self :label %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 16 8 ]
+        %tmp.5 = 0;
+        putv self :lastStoppedAt %tmp.5;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 17 8 ]
+        %tmp.6 = 0;
+        putv self :totalStopped %tmp.6;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 18 8 ]
+        %tmp.7 = 0;
+        putv self :previouslyComputedStop %tmp.7;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_12_26_stop:
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 21; ]
+    function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_start:
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 22 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_start" "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_stop" ]
+        %elapsedTime.1 = local;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_begin:
+        %tmp.1 = lgetv %info;
+        %tmp.2 = getv %tmp.1 :elapsedTime;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_false;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_true:
+        %tmp.5 = 0;
+        push %tmp.5;
+        goto @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_end;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_false:
+        %tmp.6 = lgetv %info;
+        %tmp.7 = getv %tmp.6 :elapsedTime;
+        push %tmp.7;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_end:
+        %tmp.8 = phi [%tmp.4 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_begin] [%tmp.5 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_true] [%tmp.7 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_false] [%tmp.8 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_22_26_end];
+        lputv %elapsedTime.1 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 23 8 ]
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_23_8_if_stmt:
+        %tmp.10 = lgetv %elapsedTime.1;
+        %tmp.11 = 0;
+        %tmp.12 = eq %tmp.10 %tmp.11;
+        bf %tmp.12 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_23_8_if_end;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_23_8_if_true:
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_23_30_start:
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 25 10 ]
+        %tmp.13 = 0;
+        putv self :totalStopped %tmp.13;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_23_30_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_23_8_if_end;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_23_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 28 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_start" "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_stop" ]
+        %currentSpeed.2 = local;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_begin:
+        %tmp.14 = lgetv %info;
+        %tmp.15 = getv %tmp.14 :currentSpeed;
+        %tmp.16 = null;
+        %tmp.17 = eq %tmp.15 %tmp.16;
+        bf %tmp.17 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_false;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_true:
+        %tmp.18 = 0;
+        push %tmp.18;
+        goto @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_end;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_false:
+        %tmp.19 = lgetv %info;
+        %tmp.20 = getv %tmp.19 :currentSpeed;
+        push %tmp.20;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_end:
+        %tmp.21 = phi [%tmp.17 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_begin] [%tmp.18 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_true] [%tmp.20 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_false] [%tmp.21 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_28_27_end];
+        lputv %currentSpeed.2 %tmp.21;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 30 8 ]
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_30_8_if_stmt:
+        %tmp.23 = lgetv %currentSpeed.2;
+        %tmp.24 = 0;
+        %tmp.25 = gt %tmp.23 %tmp.24;
+        bf %tmp.25 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_30_8_if_end;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_30_8_if_true:
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_30_30_start:
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 31 10 ]
+        %tmp.26 = 0;
+        putv self :lastStoppedAt %tmp.26;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 32 10 ]
+        %tmp.27 = 0;
+        putv self :previouslyComputedStop %tmp.27;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 33 10 ]
+        %tmp.30 = getm $.Toybox.Time;
+        %tmp.31 = getv function ? %tmp.30 :Duration;
+        %tmp.32 = lgetv %self;
+        %tmp.33 = getv %tmp.32 :totalStopped;
+        %tmp.34 = 1000;
+        %tmp.35 = div %tmp.33 %tmp.34;
+        %tmp.36 = getv function %tmp.35 :toNumber;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        %tmp.28 = newc %tmp.31 (%tmp.37);
+        ret %tmp.28;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_30_30_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_30_8_if_end;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_30_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 36 8 ]
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_36_8_if_stmt:
+        %tmp.38 = lgetv %self;
+        %tmp.39 = getv %tmp.38 :lastStoppedAt;
+        %tmp.40 = 0;
+        %tmp.41 = eq %tmp.39 %tmp.40;
+        bf %tmp.41 @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_36_8_if_end;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_36_8_if_true:
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_36_37_start:
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 37 10 ]
+        %tmp.43 = lgetv %elapsedTime.1;
+        putv self :lastStoppedAt %tmp.43;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_36_37_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_36_8_if_end;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_36_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 40 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_start" "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_stop" ]
+        %currentStop.3 = local;
+        %tmp.45 = lgetv %elapsedTime.1;
+        %tmp.46 = lgetv %self;
+        %tmp.47 = getv %tmp.46 :lastStoppedAt;
+        %tmp.48 = sub %tmp.45 %tmp.47;
+        lputv %currentStop.3 %tmp.48;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 43 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_start" "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_stop" ]
+        %stopIncrement.4 = local;
+        %tmp.50 = lgetv %currentStop.3;
+        %tmp.51 = lgetv %self;
+        %tmp.52 = getv %tmp.51 :previouslyComputedStop;
+        %tmp.53 = sub %tmp.50 %tmp.52;
+        lputv %stopIncrement.4 %tmp.53;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 44 8 ]
+        %tmp.54 = getv self :totalStopped;
+        %tmp.56 = lgetv %stopIncrement.4;
+        %tmp.57 = add %tmp.54 %tmp.56;
+        putv self :totalStopped dup %tmp.57;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 45 8 ]
+        %tmp.59 = lgetv %currentStop.3;
+        putv self :previouslyComputedStop %tmp.59;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 47 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_start" "_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_stop" ]
+        %totalStoppedDuration.5 = local;
+        %tmp.62 = getm $.Toybox.Time;
+        %tmp.63 = getv function ? %tmp.62 :Duration;
+        %tmp.64 = lgetv %self;
+        %tmp.65 = getv %tmp.64 :totalStopped;
+        %tmp.66 = 1000;
+        %tmp.67 = div %tmp.65 %tmp.66;
+        %tmp.68 = getv function %tmp.67 :toNumber;
+        %tmp.69 = invoke %tmp.67 %tmp.68();
+        %tmp.60 = newc %tmp.63 (%tmp.69);
+        lputv %totalStoppedDuration.5 %tmp.60;
+[ "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" 49 8 ]
+        %tmp.71 = lgetv %totalStoppedDuration.5;
+        ret %tmp.71;
+_Users_mattdavies_Code_pedalgeek_TotalStopped_source_TotalStoppedView_mc_21_85_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="1" lineNum="5" parent="globals/DistanceToNextApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="2" lineNum="12" parent="globals/DistanceToNextApp" pc="268435479" symbol="onStart"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="3" lineNum="20" parent="globals/DistanceToNextApp" pc="268435482" symbol="getInitialView"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="3" lineNum="21" parent="globals/DistanceToNextApp" pc="268435484" symbol="getInitialView"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="4" lineNum="7" parent="globals/DistanceToNextApp" pc="268435525" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="4" lineNum="8" parent="globals/DistanceToNextApp" pc="268435527" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="5" lineNum="16" parent="globals/DistanceToNextApp" pc="268435546" symbol="onStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="6" lineNum="6" parent="globals/DistanceToNextView" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="7" lineNum="13" parent="globals/DistanceToNextView" pc="268435568" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="7" lineNum="14" parent="globals/DistanceToNextView" pc="268435572" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="7" lineNum="16" parent="globals/DistanceToNextView" pc="268435582" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="7" lineNum="17" parent="globals/DistanceToNextView" pc="268435589" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="7" lineNum="20" parent="globals/DistanceToNextView" pc="268435623" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="7" lineNum="21" parent="globals/DistanceToNextView" pc="268435634" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="7" lineNum="24" parent="globals/DistanceToNextView" pc="268435660" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="7" lineNum="25" parent="globals/DistanceToNextView" pc="268435679" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="8" lineNum="8" parent="globals/DistanceToNextView" pc="268435702" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="8" lineNum="9" parent="globals/DistanceToNextView" pc="268435704" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextView.mc" id="8" lineNum="10" parent="globals/DistanceToNextView" pc="268435722" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="9" lineNum="26" parent="globals" pc="268435736" symbol="getApp"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextApp.mc" id="9" lineNum="27" parent="globals" pc="268435746" symbol="getApp"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="10" lineNum="23" parent="globals/MockActivityInfoKmNextPoint" pc="268435762" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="11" lineNum="26" parent="globals/MockActivityInfoKmNextPoint" pc="268435781" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="11" lineNum="27" parent="globals/MockActivityInfoKmNextPoint" pc="268435783" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/bin/gen/006-B3843-00/source/Rez.mcgen" id="12" lineNum="7" parent="globals/Rez" pc="268435806" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="13" lineNum="5" parent="globals/MockActivityInfoNextPoint" pc="268435830" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="14" lineNum="8" parent="globals/MockActivityInfoNextPoint" pc="268435849" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="14" lineNum="9" parent="globals/MockActivityInfoNextPoint" pc="268435851" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="15" lineNum="41" parent="globals/MockActivityInfoDistance" pc="268435874" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="16" lineNum="45" parent="globals/MockActivityInfoDistance" pc="268435893" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" id="16" lineNum="46" parent="globals/MockActivityInfoDistance" pc="268435895" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="8389926" symbol="distanceToNextPoint"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="11" object="true" symbol="MockActivityInfoDistance"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8388649" module="true" object="true" symbol="Test"/>
+        <entry field="true" id="17" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="10" object="true" symbol="DistanceToNextView"/>
+        <entry id="13" object="true" symbol="MockActivityInfoNextPoint"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="15" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="12" object="true" symbol="MockActivityInfoKmNextPoint"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="16" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="9" object="true" symbol="DistanceToNextApp"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="14" module="true" symbol="Layouts"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="8389923" symbol="distanceToDestination"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435701" name="info" stackId="1" startPc="268435568"/>
+        <entry endPc="268435701" name="distanceToNextPoint" stackId="2" startPc="268435572"/>
+        <entry endPc="268435701" name="distanceToNextPointInKm" stackId="3" startPc="268435572"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/DistanceToNextApp" offset="182" parentId="globals" symbolId="DistanceToNextApp" type="class"/>
+        <dataEntry label="globals/DistanceToNextView" offset="253" parentId="globals" symbolId="DistanceToNextView" type="class"/>
+        <dataEntry label="globals/MockActivityInfoKmNextPoint" offset="308" parentId="globals" symbolId="MockActivityInfoKmNextPoint" type="class"/>
+        <dataEntry label="globals/Rez" offset="363" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/MockActivityInfoNextPoint" offset="442" parentId="globals" symbolId="MockActivityInfoNextPoint" type="class"/>
+        <dataEntry label="globals/MockActivityInfoDistance" offset="497" parentId="globals" symbolId="MockActivityInfoDistance" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="560" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="599" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="630" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="661" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="692" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="731" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="DistanceToNextApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435481" name="onStart" parent="DistanceToNextApp" startPc="268435479">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="getInitialView" parent="DistanceToNextApp" startPc="268435482">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435545" name="initialize" parent="DistanceToNextApp" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435548" name="onStop" parent="DistanceToNextApp" startPc="268435546">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435567" name="&lt;init&gt;" parent="DistanceToNextView" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435701" name="compute" parent="DistanceToNextView" startPc="268435568">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435735" name="initialize" parent="DistanceToNextView" startPc="268435702">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435761" name="getApp" startPc="268435736">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435780" name="&lt;init&gt;" parent="MockActivityInfoKmNextPoint" startPc="268435762">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435805" name="initialize" parent="MockActivityInfoKmNextPoint" startPc="268435781">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435829" name="&lt;init&gt;" parent="Rez" startPc="268435806">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435848" name="&lt;init&gt;" parent="MockActivityInfoNextPoint" startPc="268435830">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435873" name="initialize" parent="MockActivityInfoNextPoint" startPc="268435849">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435892" name="&lt;init&gt;" parent="MockActivityInfoDistance" startPc="268435874">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435917" name="initialize" parent="MockActivityInfoDistance" startPc="268435893">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

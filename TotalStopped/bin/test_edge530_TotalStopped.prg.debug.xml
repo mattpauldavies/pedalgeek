@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="1" lineNum="4" parent="globals" pc="268435460" symbol="getTestObject"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="1" lineNum="6" parent="globals" pc="268435470" symbol="getTestObject"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="2" lineNum="23" parent="globals/MockActivityInfoMoving" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="3" lineNum="27" parent="globals/MockActivityInfoMoving" pc="268435512" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="3" lineNum="28" parent="globals/MockActivityInfoMoving" pc="268435514" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="4" lineNum="26" parent="globals" pc="268435537" symbol="getApp"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="4" lineNum="27" parent="globals" pc="268435547" symbol="getApp"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="5" lineNum="69" parent="globals/MockActivityInfoRestart" pc="268435563" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="6" lineNum="73" parent="globals/MockActivityInfoRestart" pc="268435582" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="6" lineNum="74" parent="globals/MockActivityInfoRestart" pc="268435584" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="7" lineNum="5" parent="globals/TotalStoppedApp" pc="268435607" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="8" lineNum="12" parent="globals/TotalStoppedApp" pc="268435626" symbol="onStart"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="9" lineNum="20" parent="globals/TotalStoppedApp" pc="268435629" symbol="getInitialView"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="9" lineNum="21" parent="globals/TotalStoppedApp" pc="268435631" symbol="getInitialView"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="10" lineNum="7" parent="globals/TotalStoppedApp" pc="268435672" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="10" lineNum="8" parent="globals/TotalStoppedApp" pc="268435674" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedApp.mc" id="11" lineNum="16" parent="globals/TotalStoppedApp" pc="268435693" symbol="onStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/Rez.mcgen" id="12" lineNum="7" parent="globals/Rez" pc="268435696" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="13" lineNum="5" parent="globals/MockActivityInfoFirstStop" pc="268435720" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="14" lineNum="9" parent="globals/MockActivityInfoFirstStop" pc="268435739" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="14" lineNum="10" parent="globals/MockActivityInfoFirstStop" pc="268435741" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="55" parent="globals" pc="268435764" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="57" parent="globals" pc="268435776" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="58" parent="globals" pc="268435793" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="59" parent="globals" pc="268435817" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="60" parent="globals" pc="268435841" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="61" parent="globals" pc="268435855" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="62" parent="globals" pc="268435879" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="63" parent="globals" pc="268435893" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="64" parent="globals" pc="268435917" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="65" parent="globals" pc="268435932" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="15" lineNum="66" parent="globals" pc="268435999" symbol="returnIncrementalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="32" parent="globals" pc="268436002" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="34" parent="globals" pc="268436014" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="35" parent="globals" pc="268436031" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="36" parent="globals" pc="268436055" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="37" parent="globals" pc="268436079" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="38" parent="globals" pc="268436093" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="39" parent="globals" pc="268436117" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="40" parent="globals" pc="268436131" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="41" parent="globals" pc="268436155" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="42" parent="globals" pc="268436170" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="16" lineNum="43" parent="globals" pc="268436237" symbol="returnMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="17" lineNum="94" parent="globals/MockActivityInfoRestartNull" pc="268436240" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="18" lineNum="98" parent="globals/MockActivityInfoRestartNull" pc="268436259" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="18" lineNum="99" parent="globals/MockActivityInfoRestartNull" pc="268436261" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="103" parent="globals" pc="268436284" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="105" parent="globals" pc="268436296" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="106" parent="globals" pc="268436313" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="107" parent="globals" pc="268436337" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="108" parent="globals" pc="268436361" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="109" parent="globals" pc="268436375" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="110" parent="globals" pc="268436399" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="111" parent="globals" pc="268436413" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="112" parent="globals" pc="268436437" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="113" parent="globals" pc="268436451" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="114" parent="globals" pc="268436475" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="115" parent="globals" pc="268436490" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="19" lineNum="116" parent="globals" pc="268436557" symbol="resetTotalStopOnNull"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="20" lineNum="46" parent="globals/MockActivityInfoThirdStop" pc="268436560" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="21" lineNum="50" parent="globals/MockActivityInfoThirdStop" pc="268436579" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="21" lineNum="51" parent="globals/MockActivityInfoThirdStop" pc="268436581" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="22" lineNum="10" parent="globals/RunNoEvil" pc="268436604" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="23" lineNum="40" parent="globals/RunNoEvil" pc="268436623" symbol="getNumberOfTests"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="23" lineNum="41" parent="globals/RunNoEvil" pc="268436625" symbol="getNumberOfTests"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="24" lineNum="21" parent="globals/RunNoEvil" pc="268436643" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="24" lineNum="22" parent="globals/RunNoEvil" pc="268436647" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="24" lineNum="23" parent="globals/RunNoEvil" pc="268436664" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="24" lineNum="26" parent="globals/RunNoEvil" pc="268436687" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="24" lineNum="27" parent="globals/RunNoEvil" pc="268436706" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="24" lineNum="28" parent="globals/RunNoEvil" pc="268436721" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="24" lineNum="29" parent="globals/RunNoEvil" pc="268436746" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="24" lineNum="33" parent="globals/RunNoEvil" pc="268436765" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="25" lineNum="44" parent="globals/RunNoEvil" pc="268436771" symbol="populate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="25" lineNum="45" parent="globals/RunNoEvil" pc="268436773" symbol="populate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="25" lineNum="46" parent="globals/RunNoEvil" pc="268436792" symbol="populate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="25" lineNum="47" parent="globals/RunNoEvil" pc="268436811" symbol="populate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="25" lineNum="48" parent="globals/RunNoEvil" pc="268436830" symbol="populate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="26" lineNum="14" parent="globals/RunNoEvil" pc="268436850" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="26" lineNum="15" parent="globals/RunNoEvil" pc="268436852" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="26" lineNum="16" parent="globals/RunNoEvil" pc="268436874" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="26" lineNum="17" parent="globals/RunNoEvil" pc="268436908" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="26" lineNum="18" parent="globals/RunNoEvil" pc="268436922" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="66" parent="globals/RunNoEvil" pc="268436935" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="67" parent="globals/RunNoEvil" pc="268436939" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="68" parent="globals/RunNoEvil" pc="268436943" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="69" parent="globals/RunNoEvil" pc="268436961" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="72" parent="globals/RunNoEvil" pc="268436979" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="73" parent="globals/RunNoEvil" pc="268437013" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="74" parent="globals/RunNoEvil" pc="268437017" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="75" parent="globals/RunNoEvil" pc="268437028" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="78" parent="globals/RunNoEvil" pc="268437054" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="79" parent="globals/RunNoEvil" pc="268437072" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="27" lineNum="82" parent="globals/RunNoEvil" pc="268437078" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="28" lineNum="36" parent="globals/RunNoEvil" pc="268437081" symbol="getTestName"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="28" lineNum="37" parent="globals/RunNoEvil" pc="268437083" symbol="getTestName"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="51" parent="globals/RunNoEvil" pc="268437095" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="52" parent="globals/RunNoEvil" pc="268437099" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="53" parent="globals/RunNoEvil" pc="268437103" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="54" parent="globals/RunNoEvil" pc="268437114" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="55" parent="globals/RunNoEvil" pc="268437136" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="56" parent="globals/RunNoEvil" pc="268437147" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="57" parent="globals/RunNoEvil" pc="268437169" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="58" parent="globals/RunNoEvil" pc="268437180" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="59" parent="globals/RunNoEvil" pc="268437202" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="60" parent="globals/RunNoEvil" pc="268437213" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/bin/gen/006-B3121-00/source/UnitTests.mcgen" id="29" lineNum="63" parent="globals/RunNoEvil" pc="268437235" symbol="evaluate_test_entries_0_to_4"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="78" parent="globals" pc="268437238" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="80" parent="globals" pc="268437250" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="81" parent="globals" pc="268437267" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="82" parent="globals" pc="268437291" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="83" parent="globals" pc="268437315" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="84" parent="globals" pc="268437329" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="85" parent="globals" pc="268437353" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="86" parent="globals" pc="268437367" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="87" parent="globals" pc="268437391" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="88" parent="globals" pc="268437405" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="89" parent="globals" pc="268437429" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="90" parent="globals" pc="268437444" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="30" lineNum="91" parent="globals" pc="268437511" symbol="resetTotalStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="31" lineNum="14" parent="globals/MockActivityInfoSecondStop" pc="268437514" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="32" lineNum="18" parent="globals/MockActivityInfoSecondStop" pc="268437533" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedTest.mc" id="32" lineNum="19" parent="globals/MockActivityInfoSecondStop" pc="268437535" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="33" lineNum="6" parent="globals/TotalStoppedView" pc="268437558" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="21" parent="globals/TotalStoppedView" pc="268437577" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="22" parent="globals/TotalStoppedView" pc="268437581" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="23" parent="globals/TotalStoppedView" pc="268437612" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="25" parent="globals/TotalStoppedView" pc="268437623" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="28" parent="globals/TotalStoppedView" pc="268437639" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="30" parent="globals/TotalStoppedView" pc="268437670" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="31" parent="globals/TotalStoppedView" pc="268437681" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="32" parent="globals/TotalStoppedView" pc="268437694" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="33" parent="globals/TotalStoppedView" pc="268437707" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="36" parent="globals/TotalStoppedView" pc="268437760" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="37" parent="globals/TotalStoppedView" pc="268437777" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="40" parent="globals/TotalStoppedView" pc="268437790" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="43" parent="globals/TotalStoppedView" pc="268437803" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="44" parent="globals/TotalStoppedView" pc="268437816" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="45" parent="globals/TotalStoppedView" pc="268437832" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="47" parent="globals/TotalStoppedView" pc="268437842" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="34" lineNum="49" parent="globals/TotalStoppedView" pc="268437893" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="35" lineNum="12" parent="globals/TotalStoppedView" pc="268437896" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="35" lineNum="13" parent="globals/TotalStoppedView" pc="268437898" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="35" lineNum="14" parent="globals/TotalStoppedView" pc="268437916" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="35" lineNum="16" parent="globals/TotalStoppedView" pc="268437929" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="35" lineNum="17" parent="globals/TotalStoppedView" pc="268437942" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/TotalStopped/source/TotalStoppedView.mc" id="35" lineNum="18" parent="globals/TotalStoppedView" pc="268437955" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="9" object="true" symbol="MockActivityInfoFirstStop"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="29" symbol="lastStoppedAt"/>
+        <entry field="true" id="8389792" method="true" symbol="getTestName"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="10" object="true" symbol="MockActivityInfoMoving"/>
+        <entry field="true" id="26" symbol="&lt;globals/RunNoEvil/&lt;&gt;idToName&gt;"/>
+        <entry field="true" id="27" symbol="&lt;globals/RunNoEvil/&lt;&gt;logger&gt;"/>
+        <entry id="17" object="true" symbol="TotalStoppedView"/>
+        <entry id="24" method="true" symbol="evaluate_test_entries_0_to_4"/>
+        <entry id="15" object="true" symbol="RunNoEvil"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="13" object="true" symbol="MockActivityInfoSecondStop"/>
+        <entry id="8388649" module="true" object="true" symbol="Test"/>
+        <entry field="true" id="33" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="30" symbol="previouslyComputedStop"/>
+        <entry id="8389568" method="true" symbol="runTest"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="23" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8388738" symbol="currentSpeed"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="11" object="true" symbol="MockActivityInfoRestart"/>
+        <entry id="12" object="true" symbol="MockActivityInfoRestartNull"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="25" method="true" symbol="getIndexOf"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="31" symbol="totalStopped"/>
+        <entry id="8389823" method="true" symbol="indexOf"/>
+        <entry id="16" object="true" symbol="TotalStoppedApp"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="28" method="true" symbol="populate_test_entries_0_to_4"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="19" method="true" symbol="resetTotalStopOnNull"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="32" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389567" method="true" symbol="getNumberOfTests"/>
+        <entry id="20" method="true" symbol="returnIncrementalStop"/>
+        <entry id="14" object="true" symbol="MockActivityInfoThirdStop"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="18" method="true" symbol="resetTotalStop"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="21" method="true" symbol="returnMoving"/>
+        <entry field="true" id="8388732" symbol="elapsedTime"/>
+        <entry id="22" module="true" symbol="Layouts"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389570" method="true" symbol="getTestObject"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436001" name="logger" stackId="1" startPc="268435764"/>
+        <entry endPc="268436001" name="view" stackId="2" startPc="268435776"/>
+        <entry endPc="268436001" name="firstStopInfo" stackId="3" startPc="268435776"/>
+        <entry endPc="268436001" name="secondStopInfo" stackId="4" startPc="268435776"/>
+        <entry endPc="268436001" name="thirdStopInfo" stackId="5" startPc="268435776"/>
+        <entry endPc="268436001" name="value" stackId="6" startPc="268435776"/>
+        <entry arg="true" endPc="268436239" name="logger" stackId="1" startPc="268436002"/>
+        <entry endPc="268436239" name="view" stackId="2" startPc="268436014"/>
+        <entry endPc="268436239" name="firstStopInfo" stackId="3" startPc="268436014"/>
+        <entry endPc="268436239" name="secondStopInfo" stackId="4" startPc="268436014"/>
+        <entry endPc="268436239" name="movingInfo" stackId="5" startPc="268436014"/>
+        <entry endPc="268436239" name="value" stackId="6" startPc="268436014"/>
+        <entry arg="true" endPc="268436559" name="logger" stackId="1" startPc="268436284"/>
+        <entry endPc="268436559" name="view" stackId="2" startPc="268436296"/>
+        <entry endPc="268436559" name="firstStopInfo" stackId="3" startPc="268436296"/>
+        <entry endPc="268436559" name="secondStopInfo" stackId="4" startPc="268436296"/>
+        <entry endPc="268436559" name="thirdStopInfo" stackId="5" startPc="268436296"/>
+        <entry endPc="268436559" name="info" stackId="6" startPc="268436296"/>
+        <entry endPc="268436559" name="value" stackId="7" startPc="268436296"/>
+        <entry arg="true" endPc="268436770" name="name" stackId="1" startPc="268436643"/>
+        <entry endPc="268436770" name="j" stackId="2" startPc="268436647"/>
+        <entry endPc="268436764" name="i" stackId="3" startPc="268436721"/>
+        <entry arg="true" endPc="268437080" name="test" stackId="1" startPc="268436935"/>
+        <entry endPc="268437080" name="id" stackId="2" startPc="268436939"/>
+        <entry endPc="268437080" name="result" stackId="3" startPc="268436939"/>
+        <entry arg="true" endPc="268437094" name="id" stackId="1" startPc="268437081"/>
+        <entry arg="true" endPc="268437237" name="id" stackId="1" startPc="268437095"/>
+        <entry arg="true" endPc="268437237" name="logger" stackId="2" startPc="268437095"/>
+        <entry endPc="268437237" name="result" stackId="3" startPc="268437099"/>
+        <entry arg="true" endPc="268437513" name="logger" stackId="1" startPc="268437238"/>
+        <entry endPc="268437513" name="view" stackId="2" startPc="268437250"/>
+        <entry endPc="268437513" name="firstStopInfo" stackId="3" startPc="268437250"/>
+        <entry endPc="268437513" name="secondStopInfo" stackId="4" startPc="268437250"/>
+        <entry endPc="268437513" name="thirdStopInfo" stackId="5" startPc="268437250"/>
+        <entry endPc="268437513" name="info" stackId="6" startPc="268437250"/>
+        <entry endPc="268437513" name="value" stackId="7" startPc="268437250"/>
+        <entry arg="true" endPc="268437895" name="info" stackId="1" startPc="268437577"/>
+        <entry endPc="268437895" name="elapsedTime" stackId="2" startPc="268437581"/>
+        <entry endPc="268437895" name="currentSpeed" stackId="3" startPc="268437581"/>
+        <entry endPc="268437895" name="currentStop" stackId="4" startPc="268437581"/>
+        <entry endPc="268437895" name="stopIncrement" stackId="5" startPc="268437581"/>
+        <entry endPc="268437895" name="totalStoppedDuration" stackId="6" startPc="268437581"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="idToName"/>
+        <annotationEntry annotation="typecheck" class="globals" module="" symbol="getTestObject"/>
+        <annotationEntry annotation="test" class="globals" module="" symbol="returnIncrementalStop"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="test" class="globals" module="" symbol="returnMoving"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="logger"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="populate_test_entries_0_to_4"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="runTest"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getNumberOfTests"/>
+        <annotationEntry annotation="test" class="globals" module="" symbol="resetTotalStopOnNull"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getTestName"/>
+        <annotationEntry annotation="test" class="globals" module="" symbol="resetTotalStop"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="evaluate_test_entries_0_to_4"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getIndexOf"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/MockActivityInfoMoving" offset="254" parentId="globals" symbolId="MockActivityInfoMoving" type="class"/>
+        <dataEntry label="globals/MockActivityInfoRestart" offset="317" parentId="globals" symbolId="MockActivityInfoRestart" type="class"/>
+        <dataEntry label="globals/TotalStoppedApp" offset="380" parentId="globals" symbolId="TotalStoppedApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="451" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/MockActivityInfoFirstStop" offset="530" parentId="globals" symbolId="MockActivityInfoFirstStop" type="class"/>
+        <dataEntry label="globals/MockActivityInfoRestartNull" offset="593" parentId="globals" symbolId="MockActivityInfoRestartNull" type="class"/>
+        <dataEntry label="globals/MockActivityInfoThirdStop" offset="656" parentId="globals" symbolId="MockActivityInfoThirdStop" type="class"/>
+        <dataEntry label="globals/RunNoEvil" offset="719" parentId="globals" symbolId="RunNoEvil" type="class"/>
+        <dataEntry label="globals/MockActivityInfoSecondStop" offset="830" parentId="globals" symbolId="MockActivityInfoSecondStop" type="class"/>
+        <dataEntry label="globals/TotalStoppedView" offset="893" parentId="globals" symbolId="TotalStoppedView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="972" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1011" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1042" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1073" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1104" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1143" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435492" name="getTestObject" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435511" name="&lt;init&gt;" parent="MockActivityInfoMoving" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="initialize" parent="MockActivityInfoMoving" startPc="268435512">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435562" name="getApp" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435581" name="&lt;init&gt;" parent="MockActivityInfoRestart" startPc="268435563">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435606" name="initialize" parent="MockActivityInfoRestart" startPc="268435582">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435625" name="&lt;init&gt;" parent="TotalStoppedApp" startPc="268435607">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435628" name="onStart" parent="TotalStoppedApp" startPc="268435626">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435671" name="getInitialView" parent="TotalStoppedApp" startPc="268435629">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435692" name="initialize" parent="TotalStoppedApp" startPc="268435672">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435695" name="onStop" parent="TotalStoppedApp" startPc="268435693">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435719" name="&lt;init&gt;" parent="Rez" startPc="268435696">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435738" name="&lt;init&gt;" parent="MockActivityInfoFirstStop" startPc="268435720">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435763" name="initialize" parent="MockActivityInfoFirstStop" startPc="268435739">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436001" name="returnIncrementalStop" startPc="268435764">
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436239" name="returnMoving" startPc="268436002">
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436258" name="&lt;init&gt;" parent="MockActivityInfoRestartNull" startPc="268436240">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436283" name="initialize" parent="MockActivityInfoRestartNull" startPc="268436259">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436559" name="resetTotalStopOnNull" startPc="268436284">
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436578" name="&lt;init&gt;" parent="MockActivityInfoThirdStop" startPc="268436560">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436603" name="initialize" parent="MockActivityInfoThirdStop" startPc="268436579">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436622" name="&lt;init&gt;" parent="RunNoEvil" startPc="268436604">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436642" name="getNumberOfTests" parent="RunNoEvil" startPc="268436623">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436770" name="getIndexOf" parent="RunNoEvil" startPc="268436643">
+            <param id="name"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436849" name="populate_test_entries_0_to_4" parent="RunNoEvil" startPc="268436771">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436934" name="initialize" parent="RunNoEvil" startPc="268436850">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437080" name="runTest" parent="RunNoEvil" startPc="268436935">
+            <param id="test"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437094" name="getTestName" parent="RunNoEvil" startPc="268437081">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437237" name="evaluate_test_entries_0_to_4" parent="RunNoEvil" startPc="268437095">
+            <param id="id"/>
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437513" name="resetTotalStop" startPc="268437238">
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437532" name="&lt;init&gt;" parent="MockActivityInfoSecondStop" startPc="268437514">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437557" name="initialize" parent="MockActivityInfoSecondStop" startPc="268437533">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437576" name="&lt;init&gt;" parent="TotalStoppedView" startPc="268437558">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437895" name="compute" parent="TotalStoppedView" startPc="268437577">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437968" name="initialize" parent="TotalStoppedView" startPc="268437896">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

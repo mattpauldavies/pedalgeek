@@ -1,0 +1,194 @@
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 2; ]
+import Toybox.Test;
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 5; ]
+class MockActivityInfoNextPoint extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 6; @position = 6; ]
+    var distanceToNextPoint = 200;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 8; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_8_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 9 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_8_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 13; test = true; ]
+function formattedDistanceM(logger) {
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_14_36_start:
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 15 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Return meters formatted distance to next point";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 16 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_14_36_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_14_36_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :DistanceToNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 17 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_14_36_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_14_36_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoNextPoint;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 18 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_14_36_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_14_36_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 19 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "200 m";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 20 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_14_36_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 23; ]
+class MockActivityInfoKmNextPoint extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 23; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 23; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 24; @position = 6; ]
+    var distanceToNextPoint = 2292;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 26; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_26_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 27 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_26_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 31; test = true; ]
+function formattedDistanceKm(logger) {
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_32_37_start:
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 33 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Return kilometers formatted distance to next point";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 34 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_32_37_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_32_37_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :DistanceToNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 35 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_32_37_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_32_37_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoKmNextPoint;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 36 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_32_37_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_32_37_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 37 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "2.29 km";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 38 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_32_37_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 41; ]
+class MockActivityInfoDistance extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 41; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 41; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 42; @position = 6; ]
+    var distanceToNextPoint = null;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 43; @position = 6; ]
+    var distanceToDestination = 6500;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 45; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_45_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 46 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_45_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 50; test = true; ]
+function formattedDistance(logger) {
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_51_35_start:
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 52 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Return formatted destination distance if next point is null";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 53 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_51_35_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_51_35_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :DistanceToNextView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 54 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_51_35_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_51_35_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoDistance;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 55 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_51_35_start" "_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_51_35_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 56 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "6.50 km";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc" 57 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_DistanceToNext_source_DistanceToNextTest_mc_51_35_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/DistanceToNext/source/DistanceToNextTest.mc"; @line = 1; ]
+<init> {
+}
