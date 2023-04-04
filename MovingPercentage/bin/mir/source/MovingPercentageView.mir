@@ -1,0 +1,239 @@
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 6; ]
+class MovingPercentageView extends WatchUi.SimpleDataField{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 8; @position = 15; ]
+    protected
+    var lastStoppedAt as Number;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 9; @position = 15; ]
+    protected
+    var previouslyComputedStop as Number;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 10; @position = 15; ]
+    protected
+    var totalStopped as Number;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 12; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_12_26_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 13 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 14 8 ]
+        %tmp.4 = "MOVING %";
+        putv self :label %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 16 8 ]
+        %tmp.5 = 0;
+        putv self :lastStoppedAt %tmp.5;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 17 8 ]
+        %tmp.6 = 0;
+        putv self :totalStopped %tmp.6;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 18 8 ]
+        %tmp.7 = 0;
+        putv self :previouslyComputedStop %tmp.7;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_12_26_stop:
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 21; ]
+    function calculateMovingPercentage(elapsedTime as Numeric) as String {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_21_73_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 22 8 ]
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_22_8_if_stmt:
+        %tmp.2 = lgetv %elapsedTime;
+        %tmp.3 = 0;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_22_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_22_8_if_true:
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_22_30_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 23 10 ]
+        %tmp.5 = "0%";
+        ret %tmp.5;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_22_30_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_22_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_22_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 26 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_21_73_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_21_73_stop" ]
+        %movingPercentage.1 = local;
+        %tmp.6 = 1;
+        %tmp.7 = getv function %tmp.6 :toFloat;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = lgetv %self;
+        %tmp.10 = getv %tmp.9 :totalStopped;
+        %tmp.11 = getv function %tmp.10 :toFloat;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = lgetv %elapsedTime;
+        %tmp.14 = getv function %tmp.13 :toFloat;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        %tmp.16 = div %tmp.12 %tmp.15;
+        %tmp.17 = sub %tmp.8 %tmp.16;
+        lputv %movingPercentage.1 %tmp.17;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 28 8 ]
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_28_8_if_stmt:
+        %tmp.19 = lgetv %movingPercentage.1;
+        %tmp.20 = 0;
+        %tmp.21 = lt %tmp.19 %tmp.20;
+        bf %tmp.21 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_28_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_28_8_if_true:
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_28_34_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 29 10 ]
+        %tmp.22 = "0%";
+        ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_28_34_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_28_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_28_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 32 8 ]
+        %tmp.24 = lgetv %movingPercentage.1;
+        %tmp.25 = 100;
+        %tmp.26 = mul %tmp.24 %tmp.25;
+        %tmp.27 = getv function %tmp.26 :toNumber;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        %tmp.29 = getv function %tmp.28 :format;
+        %tmp.30 = "%d";
+        %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
+        %tmp.32 = "%";
+        %tmp.33 = add %tmp.31 %tmp.32;
+        ret %tmp.33;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_21_73_stop:
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 35; ]
+    function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 36 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_stop" ]
+        %elapsedTime.1 = local;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_begin:
+        %tmp.1 = lgetv %info;
+        %tmp.2 = getv %tmp.1 :elapsedTime;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_false;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_true:
+        %tmp.5 = 0;
+        push %tmp.5;
+        goto @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_false:
+        %tmp.6 = lgetv %info;
+        %tmp.7 = getv %tmp.6 :elapsedTime;
+        push %tmp.7;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_end:
+        %tmp.8 = phi [%tmp.4 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_begin] [%tmp.5 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_true] [%tmp.7 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_false] [%tmp.8 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_36_26_end];
+        lputv %elapsedTime.1 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 37 8 ]
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_37_8_if_stmt:
+        %tmp.10 = lgetv %elapsedTime.1;
+        %tmp.11 = 0;
+        %tmp.12 = eq %tmp.10 %tmp.11;
+        bf %tmp.12 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_37_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_37_8_if_true:
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_37_30_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 39 10 ]
+        %tmp.13 = 0;
+        putv self :totalStopped %tmp.13;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_37_30_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_37_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_37_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 42 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_stop" ]
+        %currentSpeed.2 = local;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_begin:
+        %tmp.14 = lgetv %info;
+        %tmp.15 = getv %tmp.14 :currentSpeed;
+        %tmp.16 = null;
+        %tmp.17 = eq %tmp.15 %tmp.16;
+        bf %tmp.17 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_false;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_true:
+        %tmp.18 = 0;
+        push %tmp.18;
+        goto @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_false:
+        %tmp.19 = lgetv %info;
+        %tmp.20 = getv %tmp.19 :currentSpeed;
+        push %tmp.20;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_end:
+        %tmp.21 = phi [%tmp.17 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_begin] [%tmp.18 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_true] [%tmp.20 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_false] [%tmp.21 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_42_27_end];
+        lputv %currentSpeed.2 %tmp.21;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 44 8 ]
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_44_8_if_stmt:
+        %tmp.23 = lgetv %currentSpeed.2;
+        %tmp.24 = 0;
+        %tmp.25 = gt %tmp.23 %tmp.24;
+        bf %tmp.25 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_44_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_44_8_if_true:
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_44_30_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 45 10 ]
+        %tmp.26 = 0;
+        putv self :lastStoppedAt %tmp.26;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 46 10 ]
+        %tmp.27 = 0;
+        putv self :previouslyComputedStop %tmp.27;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 47 10 ]
+        %tmp.28 = lgetv %self;
+        %tmp.29 = getv function %tmp.28 :calculateMovingPercentage;
+        %tmp.31 = lgetv %elapsedTime.1;
+        %tmp.32 = invoke %tmp.28 %tmp.29(%tmp.31);
+        ret %tmp.32;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_44_30_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_44_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_44_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 50 8 ]
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_50_8_if_stmt:
+        %tmp.33 = lgetv %self;
+        %tmp.34 = getv %tmp.33 :lastStoppedAt;
+        %tmp.35 = 0;
+        %tmp.36 = eq %tmp.34 %tmp.35;
+        bf %tmp.36 @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_50_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_50_8_if_true:
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_50_37_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 51 10 ]
+        %tmp.38 = lgetv %elapsedTime.1;
+        putv self :lastStoppedAt %tmp.38;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_50_37_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_50_8_if_end;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_50_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 54 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_stop" ]
+        %currentStop.3 = local;
+        %tmp.40 = lgetv %elapsedTime.1;
+        %tmp.41 = lgetv %self;
+        %tmp.42 = getv %tmp.41 :lastStoppedAt;
+        %tmp.43 = sub %tmp.40 %tmp.42;
+        lputv %currentStop.3 %tmp.43;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 57 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_stop" ]
+        %stopIncrement.4 = local;
+        %tmp.45 = lgetv %currentStop.3;
+        %tmp.46 = lgetv %self;
+        %tmp.47 = getv %tmp.46 :previouslyComputedStop;
+        %tmp.48 = sub %tmp.45 %tmp.47;
+        lputv %stopIncrement.4 %tmp.48;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 58 8 ]
+        %tmp.49 = getv self :totalStopped;
+        %tmp.51 = lgetv %stopIncrement.4;
+        %tmp.52 = add %tmp.49 %tmp.51;
+        putv self :totalStopped dup %tmp.52;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 59 8 ]
+        %tmp.54 = lgetv %currentStop.3;
+        putv self :previouslyComputedStop %tmp.54;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" 61 8 ]
+        %tmp.55 = lgetv %self;
+        %tmp.56 = getv function %tmp.55 :calculateMovingPercentage;
+        %tmp.58 = lgetv %elapsedTime.1;
+        %tmp.59 = invoke %tmp.55 %tmp.56(%tmp.58);
+        ret %tmp.59;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageView_mc_35_85_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc"; @line = 1; ]
+<init> {
+}

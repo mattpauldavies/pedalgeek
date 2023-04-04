@@ -1,0 +1,220 @@
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 2; ]
+import Toybox.Test;
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 5; ]
+class MockActivityInfoNotStarted extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 6; @position = 6; ]
+    var currentSpeed = 0;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 7; @position = 6; ]
+    var elapsedTime = 0;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 9; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_9_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 10 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_9_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 14; test = true; ]
+function returnZeroIfNotStarted(logger) {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_15_40_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 16 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Return zero if not started";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 17 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_15_40_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_15_40_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :MovingPercentageView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 18 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_15_40_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_15_40_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoNotStarted;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 19 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_15_40_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_15_40_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 20 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "0%";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 21 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_15_40_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 24; ]
+class MockActivityInfoMoving extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 24; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 24; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 25; @position = 6; ]
+    var currentSpeed = 10;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 26; @position = 6; ]
+    var elapsedTime = 10000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 28; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_28_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 29 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_28_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 33; ]
+class MockMovingPercentageView extends MovingPercentageView{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 33; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 33; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 34; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_34_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 35 4 ]
+        %tmp.2 = getv ? :MovingPercentageView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 36 4 ]
+        %tmp.4 = 5000;
+        putv self :totalStopped %tmp.4;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_34_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 40; test = true; ]
+function returnLastIfMoving(logger) {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_41_36_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 42 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Return last percentage if moving";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 43 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_41_36_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_41_36_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :MockMovingPercentageView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 44 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_41_36_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_41_36_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoMoving;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 45 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_41_36_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_41_36_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 46 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "50%";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 47 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_41_36_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 50; ]
+class MockActivityInfoStopped extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 50; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 50; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 51; @position = 6; ]
+    var currentSpeed = 0;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 52; @position = 6; ]
+    var elapsedTime = 20000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 54; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_54_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 55 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_54_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 59; test = true; ]
+function returnPercentageStopped(logger) {
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_60_41_start:
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 61 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Return last percentage if moving";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 62 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_60_41_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_60_41_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :MockMovingPercentageView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 63 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_60_41_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_60_41_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoStopped;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 64 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_60_41_start" "_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_60_41_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 65 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.20 = lgetv %value.3;
+    %tmp.21 = "75%";
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.21);
+[ "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" 66 4 ]
+    %tmp.22 = true;
+    ret %tmp.22;
+_Users_mattdavies_Code_pedalgeek_MovingPercentage_source_MovingPercentageTest_mc_60_41_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc"; @line = 1; ]
+<init> {
+}

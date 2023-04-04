@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="1" lineNum="4" parent="globals" pc="268435460" symbol="getTestObject"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="1" lineNum="6" parent="globals" pc="268435470" symbol="getTestObject"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="2" lineNum="24" parent="globals/MockActivityInfoMoving" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="3" lineNum="28" parent="globals/MockActivityInfoMoving" pc="268435512" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="3" lineNum="29" parent="globals/MockActivityInfoMoving" pc="268435514" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="4" lineNum="26" parent="globals" pc="268435537" symbol="getApp"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="4" lineNum="27" parent="globals" pc="268435547" symbol="getApp"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="5" lineNum="5" parent="globals/MovingPercentageApp" pc="268435563" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="6" lineNum="12" parent="globals/MovingPercentageApp" pc="268435582" symbol="onStart"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="7" lineNum="20" parent="globals/MovingPercentageApp" pc="268435585" symbol="getInitialView"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="7" lineNum="21" parent="globals/MovingPercentageApp" pc="268435587" symbol="getInitialView"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="8" lineNum="7" parent="globals/MovingPercentageApp" pc="268435628" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="8" lineNum="8" parent="globals/MovingPercentageApp" pc="268435630" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageApp.mc" id="9" lineNum="16" parent="globals/MovingPercentageApp" pc="268435649" symbol="onStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/Rez.mcgen" id="10" lineNum="7" parent="globals/Rez" pc="268435652" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="11" lineNum="40" parent="globals" pc="268435676" symbol="returnLastIfMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="11" lineNum="42" parent="globals" pc="268435688" symbol="returnLastIfMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="11" lineNum="43" parent="globals" pc="268435705" symbol="returnLastIfMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="11" lineNum="44" parent="globals" pc="268435729" symbol="returnLastIfMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="11" lineNum="45" parent="globals" pc="268435753" symbol="returnLastIfMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="11" lineNum="46" parent="globals" pc="268435768" symbol="returnLastIfMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="11" lineNum="47" parent="globals" pc="268435791" symbol="returnLastIfMoving"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="12" lineNum="33" parent="globals/MockMovingPercentageView" pc="268435794" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="13" lineNum="34" parent="globals/MockMovingPercentageView" pc="268435813" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="13" lineNum="35" parent="globals/MockMovingPercentageView" pc="268435815" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="13" lineNum="36" parent="globals/MockMovingPercentageView" pc="268435833" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="14" lineNum="59" parent="globals" pc="268435847" symbol="returnPercentageStopped"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="14" lineNum="61" parent="globals" pc="268435859" symbol="returnPercentageStopped"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="14" lineNum="62" parent="globals" pc="268435876" symbol="returnPercentageStopped"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="14" lineNum="63" parent="globals" pc="268435900" symbol="returnPercentageStopped"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="14" lineNum="64" parent="globals" pc="268435924" symbol="returnPercentageStopped"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="14" lineNum="65" parent="globals" pc="268435939" symbol="returnPercentageStopped"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="14" lineNum="66" parent="globals" pc="268435962" symbol="returnPercentageStopped"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="15" lineNum="5" parent="globals/MockActivityInfoNotStarted" pc="268435965" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="16" lineNum="9" parent="globals/MockActivityInfoNotStarted" pc="268435984" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="16" lineNum="10" parent="globals/MockActivityInfoNotStarted" pc="268435986" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="17" lineNum="6" parent="globals/MovingPercentageView" pc="268436009" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="35" parent="globals/MovingPercentageView" pc="268436028" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="36" parent="globals/MovingPercentageView" pc="268436032" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="37" parent="globals/MovingPercentageView" pc="268436063" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="39" parent="globals/MovingPercentageView" pc="268436074" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="42" parent="globals/MovingPercentageView" pc="268436090" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="44" parent="globals/MovingPercentageView" pc="268436121" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="45" parent="globals/MovingPercentageView" pc="268436132" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="46" parent="globals/MovingPercentageView" pc="268436145" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="47" parent="globals/MovingPercentageView" pc="268436158" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="50" parent="globals/MovingPercentageView" pc="268436175" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="51" parent="globals/MovingPercentageView" pc="268436192" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="54" parent="globals/MovingPercentageView" pc="268436205" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="57" parent="globals/MovingPercentageView" pc="268436218" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="58" parent="globals/MovingPercentageView" pc="268436231" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="59" parent="globals/MovingPercentageView" pc="268436247" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="18" lineNum="61" parent="globals/MovingPercentageView" pc="268436257" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="19" lineNum="21" parent="globals/MovingPercentageView" pc="268436271" symbol="calculateMovingPercentage"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="19" lineNum="22" parent="globals/MovingPercentageView" pc="268436275" symbol="calculateMovingPercentage"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="19" lineNum="23" parent="globals/MovingPercentageView" pc="268436286" symbol="calculateMovingPercentage"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="19" lineNum="26" parent="globals/MovingPercentageView" pc="268436295" symbol="calculateMovingPercentage"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="19" lineNum="28" parent="globals/MovingPercentageView" pc="268436341" symbol="calculateMovingPercentage"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="19" lineNum="29" parent="globals/MovingPercentageView" pc="268436352" symbol="calculateMovingPercentage"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="19" lineNum="32" parent="globals/MovingPercentageView" pc="268436361" symbol="calculateMovingPercentage"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="20" lineNum="12" parent="globals/MovingPercentageView" pc="268436399" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="20" lineNum="13" parent="globals/MovingPercentageView" pc="268436401" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="20" lineNum="14" parent="globals/MovingPercentageView" pc="268436419" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="20" lineNum="16" parent="globals/MovingPercentageView" pc="268436432" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="20" lineNum="17" parent="globals/MovingPercentageView" pc="268436445" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageView.mc" id="20" lineNum="18" parent="globals/MovingPercentageView" pc="268436458" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="21" lineNum="50" parent="globals/MockActivityInfoStopped" pc="268436472" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="22" lineNum="54" parent="globals/MockActivityInfoStopped" pc="268436491" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="22" lineNum="55" parent="globals/MockActivityInfoStopped" pc="268436493" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="23" lineNum="14" parent="globals" pc="268436516" symbol="returnZeroIfNotStarted"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="23" lineNum="16" parent="globals" pc="268436528" symbol="returnZeroIfNotStarted"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="23" lineNum="17" parent="globals" pc="268436545" symbol="returnZeroIfNotStarted"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="23" lineNum="18" parent="globals" pc="268436569" symbol="returnZeroIfNotStarted"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="23" lineNum="19" parent="globals" pc="268436593" symbol="returnZeroIfNotStarted"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="23" lineNum="20" parent="globals" pc="268436608" symbol="returnZeroIfNotStarted"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/source/MovingPercentageTest.mc" id="23" lineNum="21" parent="globals" pc="268436631" symbol="returnZeroIfNotStarted"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="24" lineNum="10" parent="globals/RunNoEvil" pc="268436634" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="40" parent="globals/RunNoEvil" pc="268436653" symbol="getNumberOfTests"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="41" parent="globals/RunNoEvil" pc="268436655" symbol="getNumberOfTests"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="21" parent="globals/RunNoEvil" pc="268436673" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="22" parent="globals/RunNoEvil" pc="268436677" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="23" parent="globals/RunNoEvil" pc="268436694" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="26" parent="globals/RunNoEvil" pc="268436717" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="27" parent="globals/RunNoEvil" pc="268436736" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="28" parent="globals/RunNoEvil" pc="268436751" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="29" parent="globals/RunNoEvil" pc="268436776" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="33" parent="globals/RunNoEvil" pc="268436795" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="14" parent="globals/RunNoEvil" pc="268436801" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="15" parent="globals/RunNoEvil" pc="268436803" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="16" parent="globals/RunNoEvil" pc="268436825" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="17" parent="globals/RunNoEvil" pc="268436859" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="18" parent="globals/RunNoEvil" pc="268436873" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="44" parent="globals/RunNoEvil" pc="268436886" symbol="populate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="45" parent="globals/RunNoEvil" pc="268436888" symbol="populate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="46" parent="globals/RunNoEvil" pc="268436907" symbol="populate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="47" parent="globals/RunNoEvil" pc="268436926" symbol="populate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="50" parent="globals/RunNoEvil" pc="268436946" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="51" parent="globals/RunNoEvil" pc="268436950" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="52" parent="globals/RunNoEvil" pc="268436954" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="53" parent="globals/RunNoEvil" pc="268436965" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="54" parent="globals/RunNoEvil" pc="268436987" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="55" parent="globals/RunNoEvil" pc="268436998" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="56" parent="globals/RunNoEvil" pc="268437020" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="57" parent="globals/RunNoEvil" pc="268437031" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="60" parent="globals/RunNoEvil" pc="268437053" symbol="evaluate_test_entries_0_to_3"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="63" parent="globals/RunNoEvil" pc="268437056" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="64" parent="globals/RunNoEvil" pc="268437060" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="65" parent="globals/RunNoEvil" pc="268437064" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="66" parent="globals/RunNoEvil" pc="268437082" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="69" parent="globals/RunNoEvil" pc="268437100" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="70" parent="globals/RunNoEvil" pc="268437134" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="71" parent="globals/RunNoEvil" pc="268437138" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="72" parent="globals/RunNoEvil" pc="268437149" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="75" parent="globals/RunNoEvil" pc="268437175" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="76" parent="globals/RunNoEvil" pc="268437193" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="79" parent="globals/RunNoEvil" pc="268437199" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="31" lineNum="36" parent="globals/RunNoEvil" pc="268437202" symbol="getTestName"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/MovingPercentage/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="31" lineNum="37" parent="globals/RunNoEvil" pc="268437204" symbol="getTestName"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="22" symbol="lastStoppedAt"/>
+        <entry field="true" id="8389792" method="true" symbol="getTestName"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="9" object="true" symbol="MockActivityInfoMoving"/>
+        <entry field="true" id="27" symbol="&lt;globals/RunNoEvil/&lt;&gt;idToName&gt;"/>
+        <entry field="true" id="28" symbol="&lt;globals/RunNoEvil/&lt;&gt;logger&gt;"/>
+        <entry id="25" method="true" symbol="evaluate_test_entries_0_to_3"/>
+        <entry id="15" object="true" symbol="RunNoEvil"/>
+        <entry id="21" method="true" symbol="calculateMovingPercentage"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="11" object="true" symbol="MockActivityInfoStopped"/>
+        <entry id="8388649" module="true" object="true" symbol="Test"/>
+        <entry field="true" id="31" symbol="AppName"/>
+        <entry id="16" method="true" symbol="returnLastIfMoving"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="14" object="true" symbol="MovingPercentageView"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="23" symbol="previouslyComputedStop"/>
+        <entry id="8389568" method="true" symbol="runTest"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="20" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8388738" symbol="currentSpeed"/>
+        <entry id="10" object="true" symbol="MockActivityInfoNotStarted"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="26" method="true" symbol="getIndexOf"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="24" symbol="totalStopped"/>
+        <entry id="8389823" method="true" symbol="indexOf"/>
+        <entry id="12" object="true" symbol="MockMovingPercentageView"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="29" method="true" symbol="populate_test_entries_0_to_3"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="30" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389567" method="true" symbol="getNumberOfTests"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="17" method="true" symbol="returnPercentageStopped"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8388732" symbol="elapsedTime"/>
+        <entry id="13" object="true" symbol="MovingPercentageApp"/>
+        <entry id="18" method="true" symbol="returnZeroIfNotStarted"/>
+        <entry id="19" module="true" symbol="Layouts"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389570" method="true" symbol="getTestObject"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435793" name="logger" stackId="1" startPc="268435676"/>
+        <entry endPc="268435793" name="view" stackId="2" startPc="268435688"/>
+        <entry endPc="268435793" name="info" stackId="3" startPc="268435688"/>
+        <entry endPc="268435793" name="value" stackId="4" startPc="268435688"/>
+        <entry arg="true" endPc="268435964" name="logger" stackId="1" startPc="268435847"/>
+        <entry endPc="268435964" name="view" stackId="2" startPc="268435859"/>
+        <entry endPc="268435964" name="info" stackId="3" startPc="268435859"/>
+        <entry endPc="268435964" name="value" stackId="4" startPc="268435859"/>
+        <entry arg="true" endPc="268436270" name="info" stackId="1" startPc="268436028"/>
+        <entry endPc="268436270" name="elapsedTime" stackId="2" startPc="268436032"/>
+        <entry endPc="268436270" name="currentSpeed" stackId="3" startPc="268436032"/>
+        <entry endPc="268436270" name="currentStop" stackId="4" startPc="268436032"/>
+        <entry endPc="268436270" name="stopIncrement" stackId="5" startPc="268436032"/>
+        <entry arg="true" endPc="268436398" name="elapsedTime" stackId="1" startPc="268436271"/>
+        <entry endPc="268436398" name="movingPercentage" stackId="2" startPc="268436275"/>
+        <entry arg="true" endPc="268436633" name="logger" stackId="1" startPc="268436516"/>
+        <entry endPc="268436633" name="view" stackId="2" startPc="268436528"/>
+        <entry endPc="268436633" name="info" stackId="3" startPc="268436528"/>
+        <entry endPc="268436633" name="value" stackId="4" startPc="268436528"/>
+        <entry arg="true" endPc="268436800" name="name" stackId="1" startPc="268436673"/>
+        <entry endPc="268436800" name="j" stackId="2" startPc="268436677"/>
+        <entry endPc="268436794" name="i" stackId="3" startPc="268436751"/>
+        <entry arg="true" endPc="268437055" name="id" stackId="1" startPc="268436946"/>
+        <entry arg="true" endPc="268437055" name="logger" stackId="2" startPc="268436946"/>
+        <entry endPc="268437055" name="result" stackId="3" startPc="268436950"/>
+        <entry arg="true" endPc="268437201" name="test" stackId="1" startPc="268437056"/>
+        <entry endPc="268437201" name="id" stackId="2" startPc="268437060"/>
+        <entry endPc="268437201" name="result" stackId="3" startPc="268437060"/>
+        <entry arg="true" endPc="268437215" name="id" stackId="1" startPc="268437202"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="idToName"/>
+        <annotationEntry annotation="typecheck" class="globals" module="" symbol="getTestObject"/>
+        <annotationEntry annotation="test" class="globals" module="" symbol="returnLastIfMoving"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="test" class="globals" module="" symbol="returnPercentageStopped"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="logger"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="populate_test_entries_0_to_3"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="runTest"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="test" class="globals" module="" symbol="returnZeroIfNotStarted"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getNumberOfTests"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getTestName"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getIndexOf"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="evaluate_test_entries_0_to_3"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/MockActivityInfoMoving" offset="230" parentId="globals" symbolId="MockActivityInfoMoving" type="class"/>
+        <dataEntry label="globals/MovingPercentageApp" offset="293" parentId="globals" symbolId="MovingPercentageApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="364" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/MockMovingPercentageView" offset="443" parentId="globals" symbolId="MockMovingPercentageView" type="class"/>
+        <dataEntry label="globals/MockActivityInfoNotStarted" offset="490" parentId="globals" symbolId="MockActivityInfoNotStarted" type="class"/>
+        <dataEntry label="globals/MovingPercentageView" offset="553" parentId="globals" symbolId="MovingPercentageView" type="class"/>
+        <dataEntry label="globals/MockActivityInfoStopped" offset="640" parentId="globals" symbolId="MockActivityInfoStopped" type="class"/>
+        <dataEntry label="globals/RunNoEvil" offset="703" parentId="globals" symbolId="RunNoEvil" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="814" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="853" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="884" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="915" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="946" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="985" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435492" name="getTestObject" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435511" name="&lt;init&gt;" parent="MockActivityInfoMoving" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="initialize" parent="MockActivityInfoMoving" startPc="268435512">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435562" name="getApp" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435581" name="&lt;init&gt;" parent="MovingPercentageApp" startPc="268435563">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435584" name="onStart" parent="MovingPercentageApp" startPc="268435582">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435627" name="getInitialView" parent="MovingPercentageApp" startPc="268435585">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435648" name="initialize" parent="MovingPercentageApp" startPc="268435628">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435651" name="onStop" parent="MovingPercentageApp" startPc="268435649">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435675" name="&lt;init&gt;" parent="Rez" startPc="268435652">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435793" name="returnLastIfMoving" startPc="268435676">
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435812" name="&lt;init&gt;" parent="MockMovingPercentageView" startPc="268435794">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435846" name="initialize" parent="MockMovingPercentageView" startPc="268435813">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435964" name="returnPercentageStopped" startPc="268435847">
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435983" name="&lt;init&gt;" parent="MockActivityInfoNotStarted" startPc="268435965">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436008" name="initialize" parent="MockActivityInfoNotStarted" startPc="268435984">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436027" name="&lt;init&gt;" parent="MovingPercentageView" startPc="268436009">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436270" name="compute" parent="MovingPercentageView" startPc="268436028">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436398" name="calculateMovingPercentage" parent="MovingPercentageView" startPc="268436271">
+            <param id="elapsedTime"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436471" name="initialize" parent="MovingPercentageView" startPc="268436399">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436490" name="&lt;init&gt;" parent="MockActivityInfoStopped" startPc="268436472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436515" name="initialize" parent="MockActivityInfoStopped" startPc="268436491">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436633" name="returnZeroIfNotStarted" startPc="268436516">
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436652" name="&lt;init&gt;" parent="RunNoEvil" startPc="268436634">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436672" name="getNumberOfTests" parent="RunNoEvil" startPc="268436653">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436800" name="getIndexOf" parent="RunNoEvil" startPc="268436673">
+            <param id="name"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436885" name="initialize" parent="RunNoEvil" startPc="268436801">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436945" name="populate_test_entries_0_to_3" parent="RunNoEvil" startPc="268436886">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437055" name="evaluate_test_entries_0_to_3" parent="RunNoEvil" startPc="268436946">
+            <param id="id"/>
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437201" name="runTest" parent="RunNoEvil" startPc="268437056">
+            <param id="test"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437215" name="getTestName" parent="RunNoEvil" startPc="268437202">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
