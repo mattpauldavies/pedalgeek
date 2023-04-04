@@ -7,7 +7,7 @@ class DistanceToNextView extends WatchUi.SimpleDataField {
 
     function initialize() {
         SimpleDataField.initialize();
-        label = "NEXT DISTANCE";
+        label = "TO NEXT";
     }
 
     function compute(info as Activity.Info) as Numeric or Duration or String or Null {
