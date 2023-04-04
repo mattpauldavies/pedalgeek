@@ -12,7 +12,11 @@ Displays the duration of the time you have been stationary during your current s
 
 ### Total Stopped
 
-Displays the total duration you have not been moving for in the current activity. This data field tracks the total time you've been stopped. The least stopped, the more efficient you are.
+Displays the total duration you have not been moving for in the current activity. This data field tracks the total time you've been stopped. The least amount of time stopped, the more efficient you are.
+
+### Moving Percentage
+
+Displays your moving percentage a key measure of efficiency. The calculation is based on the total elapsed time of the activity and your total stationary time for the activity.
 
 ### Distance to Next
 
