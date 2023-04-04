@@ -238,6 +238,98 @@ _Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_60_45_sta
     ret %tmp.37;
 _Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_60_45_stop:
 }
+[ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 71; ]
+class MockActivityInfoEndOfActivity extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 71; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 71; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 72; @position = 6; ]
+    var currentSpeed = 0;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 73; @position = 6; ]
+    var elapsedTime = 0;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 75; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_75_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 76 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_75_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 80; ]
+class MockCurrentStopView extends CurrentStopView{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 80; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 80; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 81; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_81_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 82 4 ]
+        %tmp.2 = getv ? :CurrentStopView;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 83 4 ]
+        %tmp.4 = 500;
+        putv self :lastStoppedAt %tmp.4;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_81_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 87; test = true; ]
+function returnZeroIfElapsedTimeIsZero(logger) {
+_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_88_47_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 89 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Return stopped time after a longer stop";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 90 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_88_47_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_88_47_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :CurrentStopView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 91 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_88_47_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_88_47_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoEndOfActivity;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 92 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_88_47_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_88_47_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 93 4 ]
+    %tmp.17 = getm $.Toybox.Test;
+    %tmp.18 = getv function %tmp.17 :assertEqual;
+    %tmp.19 = lgetv %value.3;
+    %tmp.20 = getv function %tmp.19 :value;
+    %tmp.21 = invoke %tmp.19 %tmp.20();
+    %tmp.24 = getm $.Toybox.Time;
+    %tmp.25 = getv function ? %tmp.24 :Duration;
+    %tmp.26 = 0;
+    %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+    %tmp.28 = getv function ? %tmp.27 :value;
+    %tmp.22 = newc %tmp.28 ();
+    invoke %tmp.17 %tmp.18(%tmp.21, %tmp.22);
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc" 94 4 ]
+    %tmp.29 = true;
+    ret %tmp.29;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_source_CurrentStopTest_mc_88_47_stop:
+}
 [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/source/CurrentStopTest.mc"; @line = 1; ]
 <init> {
 }

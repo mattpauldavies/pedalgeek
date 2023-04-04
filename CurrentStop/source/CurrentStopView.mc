@@ -30,6 +30,10 @@ class CurrentStopView extends WatchUi.SimpleDataField {
 
         var currentStop = elapsedTime - self.lastStoppedAt;
 
+        if (currentStop < 0) {
+          return new Time.Duration(0);
+        }
+
         var currentStopDuration = new Time.Duration((currentStop / 1000).toNumber());
 
         return currentStopDuration;

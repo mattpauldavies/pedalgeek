@@ -40,12 +40,12 @@ _Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTes
         %tmp.4 = newc %tmp.7 ();
         putv self :logger %tmp.4;
 [ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 17 8 ]
-        %tmp.9 = 3;
+        %tmp.9 = 4;
         %tmp.8 = newa %tmp.9;
         putv self :idToName %tmp.8;
 [ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 18 8 ]
         %tmp.10 = self;
-        %tmp.11 = getv function %tmp.10 :populate_test_entries_0_to_3;
+        %tmp.11 = getv function %tmp.10 :populate_test_entries_0_to_4;
         invoke %tmp.10 %tmp.11();
 _Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_14_26_stop:
     }
@@ -143,7 +143,7 @@ _Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTes
 _Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_40_42_stop:
     }
     [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen"; @line = 44; ]
-    function populate_test_entries_0_to_3() as Void {
+    function populate_test_entries_0_to_4() as Void {
 _Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_44_52_start:
 [ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 45 8 ]
         %tmp.1 = getv self :idToName;
@@ -160,102 +160,125 @@ _Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTes
         %tmp.8 = "returnStoppedTimeAfterPause";
         %tmp.9 = 2;
         aputv %tmp.7 %tmp.9 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 48 8 ]
+        %tmp.10 = getv self :idToName;
+        %tmp.11 = "returnZeroIfElapsedTimeIsZero";
+        %tmp.12 = 3;
+        aputv %tmp.10 %tmp.12 %tmp.11;
 _Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_44_52_stop:
     }
-    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen"; @line = 50; ]
-    function evaluate_test_entries_0_to_3(id as Number, logger as Logger) {
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_50_74_start:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 51 8 ]
-        [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_50_74_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_50_74_stop" ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen"; @line = 51; ]
+    function evaluate_test_entries_0_to_4(id as Number, logger as Logger) {
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_51_74_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 52 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_51_74_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_51_74_stop" ]
         %result.1 = local;
         %tmp.1 = false;
         lputv %result.1 %tmp.1;
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 52 8 ]
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_52_8_if_stmt:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 53 8 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_53_8_if_stmt:
         %tmp.3 = lgetv %id;
         %tmp.4 = 0;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_52_8_if_false;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_52_8_if_true:
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_52_21_start:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 53 12 ]
+        bf %tmp.5 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_53_8_if_false;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_53_8_if_true:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_53_21_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 54 12 ]
         %tmp.6 = getm $;
         %tmp.7 = getv function %tmp.6 :returnMoving;
         %tmp.9 = lgetv %logger;
         %tmp.10 = invoke %tmp.6 %tmp.7(%tmp.9);
         lputv %result.1 %tmp.10;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_52_21_stop:
-        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_52_8_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_52_8_if_false:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 54 15 ]
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_54_15_if_stmt:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_53_21_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_53_8_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_53_8_if_false:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 55 15 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_55_15_if_stmt:
         %tmp.12 = lgetv %id;
         %tmp.13 = 1;
         %tmp.14 = eq %tmp.12 %tmp.13;
-        bf %tmp.14 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_54_15_if_false;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_54_15_if_true:
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_54_28_start:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 55 12 ]
+        bf %tmp.14 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_55_15_if_false;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_55_15_if_true:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_55_28_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 56 12 ]
         %tmp.15 = getm $;
         %tmp.16 = getv function %tmp.15 :returnStoppedTime;
         %tmp.18 = lgetv %logger;
         %tmp.19 = invoke %tmp.15 %tmp.16(%tmp.18);
         lputv %result.1 %tmp.19;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_54_28_stop:
-        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_54_15_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_54_15_if_false:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 56 15 ]
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_56_15_if_stmt:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_55_28_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_55_15_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_55_15_if_false:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 57 15 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_57_15_if_stmt:
         %tmp.21 = lgetv %id;
         %tmp.22 = 2;
         %tmp.23 = eq %tmp.21 %tmp.22;
-        bf %tmp.23 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_56_15_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_56_15_if_true:
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_56_28_start:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 57 12 ]
+        bf %tmp.23 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_57_15_if_false;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_57_15_if_true:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_57_28_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 58 12 ]
         %tmp.24 = getm $;
         %tmp.25 = getv function %tmp.24 :returnStoppedTimeAfterPause;
         %tmp.27 = lgetv %logger;
         %tmp.28 = invoke %tmp.24 %tmp.25(%tmp.27);
         lputv %result.1 %tmp.28;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_56_28_stop:
-        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_56_15_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_56_15_if_end:
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_54_15_if_end:
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_52_8_if_end:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 60 8 ]
-        %tmp.30 = lgetv %result.1;
-        ret %tmp.30;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_50_74_stop:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_57_28_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_57_15_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_57_15_if_false:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 59 15 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_59_15_if_stmt:
+        %tmp.30 = lgetv %id;
+        %tmp.31 = 3;
+        %tmp.32 = eq %tmp.30 %tmp.31;
+        bf %tmp.32 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_59_15_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_59_15_if_true:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_59_28_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 60 12 ]
+        %tmp.33 = getm $;
+        %tmp.34 = getv function %tmp.33 :returnZeroIfElapsedTimeIsZero;
+        %tmp.36 = lgetv %logger;
+        %tmp.37 = invoke %tmp.33 %tmp.34(%tmp.36);
+        lputv %result.1 %tmp.37;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_59_28_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_59_15_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_59_15_if_end:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_57_15_if_end:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_55_15_if_end:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_53_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 63 8 ]
+        %tmp.39 = lgetv %result.1;
+        ret %tmp.39;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_51_74_stop:
     }
-    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen"; @line = 63; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen"; @line = 66; ]
     function runTest(test as String or Number) as Boolean {
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_63_58_start:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 64 8 ]
-        [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_63_58_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_63_58_stop" ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_66_58_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 67 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_66_58_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_66_58_stop" ]
         %id.1 = local;
         %tmp.2 = lgetv %test;
         lputv %id.1 %tmp.2;
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 65 8 ]
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_65_8_if_stmt:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 68 8 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_68_8_if_stmt:
         %tmp.4 = lgetv %test;
         %tmp.5 = getm $.Toybox.Lang;
         %tmp.6 = getv %tmp.5 :String;
         %tmp.7 = isa %tmp.4 %tmp.6;
-        bf %tmp.7 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_65_8_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_65_8_if_true:
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_65_41_start:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 66 12 ]
+        bf %tmp.7 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_68_8_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_68_8_if_true:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_68_41_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 69 12 ]
         %tmp.8 = self;
         %tmp.9 = getv function %tmp.8 :getIndexOf;
         %tmp.11 = lgetv %test;
         %tmp.12 = as %tmp.11 { (Lang.String) };
         %tmp.13 = invoke %tmp.8 %tmp.9(%tmp.12);
         lputv %id.1 %tmp.13;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_65_41_stop:
-        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_65_8_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_65_8_if_end:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 69 8 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_68_41_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_68_8_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_68_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 72 8 ]
         %tmp.14 = self;
         %tmp.15 = getv function %tmp.14 :assertMessage;
         %tmp.17 = lgetv %id.1;
@@ -267,48 +290,48 @@ _Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTes
         %tmp.24 = "'";
         %tmp.25 = add %tmp.23 %tmp.24;
         invoke %tmp.14 %tmp.15(%tmp.19, %tmp.25);
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 70 8 ]
-        [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_63_58_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_63_58_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 73 8 ]
+        [ "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_66_58_start" "_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_66_58_stop" ]
         %result.2 = local;
         %tmp.26 = false;
         lputv %result.2 %tmp.26;
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 71 8 ]
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_71_8_if_stmt:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 74 8 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_74_8_if_stmt:
         %tmp.28 = lgetv %id.1;
-        %tmp.29 = 3;
+        %tmp.29 = 4;
         %tmp.30 = lt %tmp.28 %tmp.29;
-        bf %tmp.30 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_71_8_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_71_8_if_true:
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_71_20_start:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 72 12 ]
+        bf %tmp.30 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_74_8_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_74_8_if_true:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_74_20_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 75 12 ]
         %tmp.31 = lgetv %self;
-        %tmp.32 = getv function %tmp.31 :evaluate_test_entries_0_to_3;
+        %tmp.32 = getv function %tmp.31 :evaluate_test_entries_0_to_4;
         %tmp.34 = lgetv %id.1;
         %tmp.36 = getv ? :logger;
         %tmp.37 = invoke %tmp.31 %tmp.32(%tmp.34, %tmp.36);
         lputv %result.2 %tmp.37;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_71_20_stop:
-        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_71_8_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_71_8_if_end:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 75 8 ]
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_75_8_if_stmt:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_74_20_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_74_8_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_74_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 78 8 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_78_8_if_stmt:
         %tmp.39 = lgetv %result.2;
         %tmp.41 = getv ? :Boolean;
         %tmp.42 = isa %tmp.39 %tmp.41;
-        bf %tmp.42 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_75_8_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_75_8_if_true:
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_75_39_start:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 76 12 ]
+        bf %tmp.42 @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_78_8_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_78_8_if_true:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_78_39_start:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 79 12 ]
         %tmp.44 = lgetv %result.2;
         %tmp.45 = as %tmp.44 { (Boolean) };
         ret %tmp.45;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_75_39_stop:
-        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_75_8_if_end;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_75_8_if_end:
-[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 79 8 ]
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_78_39_stop:
+        goto @_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_78_8_if_end;
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_78_8_if_end:
+[ "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen" 82 8 ]
         %tmp.46 = false;
         ret %tmp.46;
-_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_63_58_stop:
+_Users_mattdavies_Code_pedalgeek_CurrentStop_bin_gen_006_B3843_00_source_UnitTests_mcgen_66_58_stop:
     }
 }
 [ @file = "/Users/mattdavies/Code/pedalgeek/CurrentStop/bin/gen/006-B3843-00/source/UnitTests.mcgen"; @line = 1; ]

@@ -67,3 +67,29 @@ function returnStoppedTimeAfterPause(logger) {
     Test.assertEqual(value.value(), new Time.Duration(3).value());
     return true;
 }
+
+class MockActivityInfoEndOfActivity extends Activity.Info {
+  var currentSpeed = 0;
+  var elapsedTime = 0;
+
+  function initialize() {
+    Activity.Info.initialize();
+  }
+}
+
+class MockCurrentStopView extends CurrentStopView {
+  function initialize() {
+    CurrentStopView.initialize();
+    lastStoppedAt = 500;
+  }
+}
+
+(:test)
+function returnZeroIfElapsedTimeIsZero(logger) {
+    logger.debug("Return stopped time after a longer stop");
+    var view = new CurrentStopView();
+    var info = new MockActivityInfoEndOfActivity();
+    var value = view.compute(info);
+    Test.assertEqual(value.value(), new Time.Duration(0).value());
+    return true;
+}
