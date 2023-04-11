@@ -46,6 +46,8 @@ Displays your estimated time of arrival to reach the next waypoint, navigation p
 
 Displays your estimated time of arrival to reach you destination. The calculation is based on your average speed for the current activity. You can reset your average speed by pressing the lap button. You must have an active course in order for this data field to work.
 
+[Download arrival at finish from the Garmin IQ store](https://apps.garmin.com/en-US/apps/17728d06-8026-479f-bc6a-baef6988cc44)
+
 ## Acknowledgements
 
 Inspiration taken from this [Ride Far article](https://ridefar.info/2021/05/how-to-add-custom-data-fields-to-a-garmin-device-using-appbuilder/).
