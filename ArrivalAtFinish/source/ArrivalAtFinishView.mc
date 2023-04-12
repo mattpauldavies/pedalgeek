@@ -49,6 +49,10 @@ class ArrivalAtFinishView extends WatchUi.SimpleDataField {
           return "Unknown";
         }
 
+        if (info.distanceToDestination == null) {
+          return "No Course";
+        }
+
         var distanceToDestination = info.distanceToDestination;
 
         var timeToNextInSeconds = distanceToDestination / lapAvgSpeed;

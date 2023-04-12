@@ -40,6 +40,27 @@ function zeroElapsedTime(logger) {
     return true;
 }
 
+class MockActivityInfoWithoutDistance extends Activity.Info {
+  var elapsedTime = 60000;
+  var elapsedDistance = 500;
+
+  function initialize() {
+    Activity.Info.initialize();
+  }
+}
+
+(:test)
+function doesNotCrashIfDistanceNotSet(logger) {
+    logger.debug("Returns ETA without lap");
+    var view = new ArrivalAtFinishView();
+    var info = new MockActivityInfoWithoutDistance();
+    var value = view.compute(info);
+    var timeToNext = new Time.Duration(0);
+    var eta = Gregorian.info(Time.now().add(timeToNext), Time.FORMAT_SHORT);
+    Test.assertEqual(value, "No Course");
+    return true;
+}
+
 class MockActivityInfoWithoutLap extends Activity.Info {
   var elapsedTime = 60000;
   var elapsedDistance = 500;

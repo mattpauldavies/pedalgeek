@@ -131,7 +131,7 @@ _Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_3
 _Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_34_33_stop:
 }
 [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 43; ]
-class MockActivityInfoWithoutLap extends Activity.Info{
+class MockActivityInfoWithoutDistance extends Activity.Info{
     [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 43; ]
     <init> {
     }
@@ -143,57 +143,55 @@ class MockActivityInfoWithoutLap extends Activity.Info{
     var elapsedTime = 60000;
     [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 45; @position = 6; ]
     var elapsedDistance = 500;
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 46; @position = 6; ]
-    var distanceToDestination = 100000;
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 48; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 47; ]
     function initialize() as Void {
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_48_24_start:
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 49 4 ]
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_47_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 48 4 ]
         %tmp.1 = getm $.Toybox.Activity;
         %tmp.2 = getv %tmp.1 :Info;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_48_24_stop:
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_47_24_stop:
     }
 }
-[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 53; test = true; ]
-function withoutLap(logger) {
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_start:
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 55 4 ]
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 52; test = true; ]
+function doesNotCrashIfDistanceNotSet(logger) {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 54 4 ]
     %tmp.1 = lgetv %logger;
     %tmp.2 = getv function %tmp.1 :debug;
     %tmp.3 = "Returns ETA without lap";
     invoke %tmp.1 %tmp.2(%tmp.3);
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 56 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 55 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_stop" ]
     %view.1 = local;
     %tmp.7 = getv ? :ArrivalAtFinishView;
     %tmp.4 = newc %tmp.7 ();
     lputv %view.1 %tmp.4;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 57 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 56 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_stop" ]
     %info.2 = local;
-    %tmp.11 = getv ? :MockActivityInfoWithoutLap;
+    %tmp.11 = getv ? :MockActivityInfoWithoutDistance;
     %tmp.8 = newc %tmp.11 ();
     lputv %info.2 %tmp.8;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 58 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 57 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_stop" ]
     %value.3 = local;
     %tmp.12 = lgetv %view.1;
     %tmp.13 = getv function %tmp.12 :compute;
     %tmp.15 = lgetv %info.2;
     %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
     lputv %value.3 %tmp.16;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 59 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 58 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_stop" ]
     %timeToNext.4 = local;
     %tmp.19 = getm $.Toybox.Time;
     %tmp.20 = getv function ? %tmp.19 :Duration;
-    %tmp.21 = 12000;
+    %tmp.21 = 0;
     %tmp.17 = newc %tmp.20 (%tmp.21);
     lputv %timeToNext.4 %tmp.17;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 60 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 59 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_stop" ]
     %eta.5 = local;
     %tmp.22 = getm $.Toybox.Time.Gregorian;
     %tmp.23 = getv function %tmp.22 :info;
@@ -207,7 +205,95 @@ _Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_5
     %tmp.32 = getv %tmp.31 :FORMAT_SHORT;
     %tmp.33 = invoke %tmp.22 %tmp.23(%tmp.30, %tmp.32);
     lputv %eta.5 %tmp.33;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 60 4 ]
+    %tmp.34 = getm $.Toybox.Test;
+    %tmp.35 = getv function %tmp.34 :assertEqual;
+    %tmp.37 = lgetv %value.3;
+    %tmp.38 = "No Course";
+    invoke %tmp.34 %tmp.35(%tmp.37, %tmp.38);
 [ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 61 4 ]
+    %tmp.39 = true;
+    ret %tmp.39;
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_53_46_stop:
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 64; ]
+class MockActivityInfoWithoutLap extends Activity.Info{
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 64; ]
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 64; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 65; @position = 6; ]
+    var elapsedTime = 60000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 66; @position = 6; ]
+    var elapsedDistance = 500;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 67; @position = 6; ]
+    var distanceToDestination = 100000;
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 69; ]
+    function initialize() as Void {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_69_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 70 4 ]
+        %tmp.1 = getm $.Toybox.Activity;
+        %tmp.2 = getv %tmp.1 :Info;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_69_24_stop:
+    }
+}
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 74; test = true; ]
+function withoutLap(logger) {
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 76 4 ]
+    %tmp.1 = lgetv %logger;
+    %tmp.2 = getv function %tmp.1 :debug;
+    %tmp.3 = "Returns ETA without lap";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 77 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_stop" ]
+    %view.1 = local;
+    %tmp.7 = getv ? :ArrivalAtFinishView;
+    %tmp.4 = newc %tmp.7 ();
+    lputv %view.1 %tmp.4;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 78 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_stop" ]
+    %info.2 = local;
+    %tmp.11 = getv ? :MockActivityInfoWithoutLap;
+    %tmp.8 = newc %tmp.11 ();
+    lputv %info.2 %tmp.8;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 79 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_stop" ]
+    %value.3 = local;
+    %tmp.12 = lgetv %view.1;
+    %tmp.13 = getv function %tmp.12 :compute;
+    %tmp.15 = lgetv %info.2;
+    %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+    lputv %value.3 %tmp.16;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 80 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_stop" ]
+    %timeToNext.4 = local;
+    %tmp.19 = getm $.Toybox.Time;
+    %tmp.20 = getv function ? %tmp.19 :Duration;
+    %tmp.21 = 12000;
+    %tmp.17 = newc %tmp.20 (%tmp.21);
+    lputv %timeToNext.4 %tmp.17;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 81 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_stop" ]
+    %eta.5 = local;
+    %tmp.22 = getm $.Toybox.Time.Gregorian;
+    %tmp.23 = getv function %tmp.22 :info;
+    %tmp.24 = getm $.Toybox.Time;
+    %tmp.25 = getv function %tmp.24 :now;
+    %tmp.26 = invoke %tmp.24 %tmp.25();
+    %tmp.27 = getv function %tmp.26 :add;
+    %tmp.29 = lgetv %timeToNext.4;
+    %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.29);
+    %tmp.31 = getm $.Toybox.Time;
+    %tmp.32 = getv %tmp.31 :FORMAT_SHORT;
+    %tmp.33 = invoke %tmp.22 %tmp.23(%tmp.30, %tmp.32);
+    lputv %eta.5 %tmp.33;
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 82 4 ]
     %tmp.34 = getm $.Toybox.Test;
     %tmp.35 = getv function %tmp.34 :assertEqual;
     %tmp.37 = lgetv %value.3;
@@ -233,110 +319,110 @@ _Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_5
     %tmp.57 = aputv %tmp.56 1 %tmp.55;
     %tmp.58 = invoke %tmp.38 %tmp.39(%tmp.40, %tmp.57);
     invoke %tmp.34 %tmp.35(%tmp.37, %tmp.58);
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 68 4 ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 89 4 ]
     %tmp.59 = true;
     ret %tmp.59;
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_54_28_stop:
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_75_28_stop:
 }
-[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 71; ]
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 92; ]
 class MockActivityInfoWithLap extends Activity.Info{
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 71; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 92; ]
     <init> {
     }
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 71; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 92; ]
     static
     <init> {
     }
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 72; @position = 6; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 93; @position = 6; ]
     var elapsedTime = 60000;
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 73; @position = 6; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 94; @position = 6; ]
     var elapsedDistance = 500;
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 74; @position = 6; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 95; @position = 6; ]
     var distanceToDestination = 100000;
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 76; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 97; ]
     function initialize() as Void {
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_76_24_start:
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 77 4 ]
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_97_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 98 4 ]
         %tmp.1 = getm $.Toybox.Activity;
         %tmp.2 = getv %tmp.1 :Info;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_76_24_stop:
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_97_24_stop:
     }
 }
-[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 81; ]
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 102; ]
 class Mock24HourArrivalAtFinishView extends ArrivalAtFinishView{
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 81; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 102; ]
     <init> {
     }
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 81; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 102; ]
     static
     <init> {
     }
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 82; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 103; ]
     function initialize() as Void {
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_82_24_start:
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 83 4 ]
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_103_24_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 104 4 ]
         %tmp.2 = getv ? :ArrivalAtFinishView;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 84 4 ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 105 4 ]
         %tmp.4 = 250;
         %tmp.5 = getv function %tmp.4 :toFloat;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         putv self :lapStartDistance %tmp.6;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 85 4 ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 106 4 ]
         %tmp.7 = 50000;
         putv self :lapStartTime %tmp.7;
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_82_24_stop:
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_103_24_stop:
     }
-    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 88; ]
+    [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 109; ]
     function is24Hour() {
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_88_22_start:
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 89 4 ]
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_109_22_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 110 4 ]
         %tmp.1 = true;
         ret %tmp.1;
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_88_22_stop:
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_109_22_stop:
     }
 }
-[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 93; test = true; ]
+[ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 114; test = true; ]
 function distanceWithLap24Hour(logger) {
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_start:
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 95 4 ]
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_start:
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 116 4 ]
     %tmp.1 = lgetv %logger;
     %tmp.2 = getv function %tmp.1 :debug;
     %tmp.3 = "Returns ETA to distance with lap in 24 hour format";
     invoke %tmp.1 %tmp.2(%tmp.3);
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 96 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 117 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_stop" ]
     %view.1 = local;
     %tmp.7 = getv ? :Mock24HourArrivalAtFinishView;
     %tmp.4 = newc %tmp.7 ();
     lputv %view.1 %tmp.4;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 97 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 118 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_stop" ]
     %info.2 = local;
     %tmp.11 = getv ? :MockActivityInfoWithLap;
     %tmp.8 = newc %tmp.11 ();
     lputv %info.2 %tmp.8;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 98 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 119 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_stop" ]
     %value.3 = local;
     %tmp.12 = lgetv %view.1;
     %tmp.13 = getv function %tmp.12 :compute;
     %tmp.15 = lgetv %info.2;
     %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
     lputv %value.3 %tmp.16;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 99 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 120 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_stop" ]
     %timeToNext.4 = local;
     %tmp.19 = getm $.Toybox.Time;
     %tmp.20 = getv function ? %tmp.19 :Duration;
     %tmp.21 = 4000;
     %tmp.17 = newc %tmp.20 (%tmp.21);
     lputv %timeToNext.4 %tmp.17;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 100 4 ]
-    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_stop" ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 121 4 ]
+    [ "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_start" "_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_stop" ]
     %eta.5 = local;
     %tmp.22 = getm $.Toybox.Time.Gregorian;
     %tmp.23 = getv function %tmp.22 :info;
@@ -350,7 +436,7 @@ _Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_9
     %tmp.32 = getv %tmp.31 :FORMAT_SHORT;
     %tmp.33 = invoke %tmp.22 %tmp.23(%tmp.30, %tmp.32);
     lputv %eta.5 %tmp.33;
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 101 4 ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 122 4 ]
     %tmp.34 = getm $.Toybox.Test;
     %tmp.35 = getv function %tmp.34 :assertEqual;
     %tmp.37 = lgetv %value.3;
@@ -374,10 +460,10 @@ _Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_9
     %tmp.55 = aputv %tmp.54 1 %tmp.53;
     %tmp.56 = invoke %tmp.38 %tmp.39(%tmp.40, %tmp.55);
     invoke %tmp.34 %tmp.35(%tmp.37, %tmp.56);
-[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 108 4 ]
+[ "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" 129 4 ]
     %tmp.57 = true;
     ret %tmp.57;
-_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_94_39_stop:
+_Users_mattdavies_Code_pedalgeek_ArrivalAtFinish_source_ArrivalAtFinishTest_mc_115_39_stop:
 }
 [ @file = "/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc"; @line = 1; ]
 <init> {

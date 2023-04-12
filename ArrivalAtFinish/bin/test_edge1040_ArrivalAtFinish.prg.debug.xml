@@ -6,166 +6,185 @@
         <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="1" lineNum="6" parent="globals" pc="268435470" symbol="getTestObject"/>
         <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="2" lineNum="26" parent="globals" pc="268435493" symbol="getApp"/>
         <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="2" lineNum="27" parent="globals" pc="268435503" symbol="getApp"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="53" parent="globals" pc="268435519" symbol="withoutLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="55" parent="globals" pc="268435531" symbol="withoutLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="56" parent="globals" pc="268435548" symbol="withoutLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="57" parent="globals" pc="268435572" symbol="withoutLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="58" parent="globals" pc="268435596" symbol="withoutLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="59" parent="globals" pc="268435611" symbol="withoutLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="60" parent="globals" pc="268435644" symbol="withoutLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="61" parent="globals" pc="268435692" symbol="withoutLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="68" parent="globals" pc="268435802" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="74" parent="globals" pc="268435519" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="76" parent="globals" pc="268435531" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="77" parent="globals" pc="268435548" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="78" parent="globals" pc="268435572" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="79" parent="globals" pc="268435596" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="80" parent="globals" pc="268435611" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="81" parent="globals" pc="268435644" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="82" parent="globals" pc="268435692" symbol="withoutLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="3" lineNum="89" parent="globals" pc="268435802" symbol="withoutLap"/>
         <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435805" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="5" lineNum="43" parent="globals/MockActivityInfoWithoutLap" pc="268435829" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="6" lineNum="48" parent="globals/MockActivityInfoWithoutLap" pc="268435848" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="6" lineNum="49" parent="globals/MockActivityInfoWithoutLap" pc="268435850" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="7" lineNum="71" parent="globals/MockActivityInfoWithLap" pc="268435873" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="8" lineNum="76" parent="globals/MockActivityInfoWithLap" pc="268435892" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="8" lineNum="77" parent="globals/MockActivityInfoWithLap" pc="268435894" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="9" lineNum="81" parent="globals/Mock24HourArrivalAtFinishView" pc="268435917" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="10" lineNum="88" parent="globals/Mock24HourArrivalAtFinishView" pc="268435936" symbol="is24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="10" lineNum="89" parent="globals/Mock24HourArrivalAtFinishView" pc="268435938" symbol="is24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="11" lineNum="82" parent="globals/Mock24HourArrivalAtFinishView" pc="268435941" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="11" lineNum="83" parent="globals/Mock24HourArrivalAtFinishView" pc="268435943" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="11" lineNum="84" parent="globals/Mock24HourArrivalAtFinishView" pc="268435961" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="11" lineNum="85" parent="globals/Mock24HourArrivalAtFinishView" pc="268435983" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="12" lineNum="7" parent="globals/MockActivityInfoNullElapsedTime" pc="268435997" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="13" lineNum="10" parent="globals/MockActivityInfoNullElapsedTime" pc="268436016" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="13" lineNum="11" parent="globals/MockActivityInfoNullElapsedTime" pc="268436018" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="14" lineNum="33" parent="globals" pc="268436041" symbol="zeroElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="14" lineNum="35" parent="globals" pc="268436053" symbol="zeroElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="14" lineNum="36" parent="globals" pc="268436070" symbol="zeroElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="14" lineNum="37" parent="globals" pc="268436094" symbol="zeroElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="14" lineNum="38" parent="globals" pc="268436118" symbol="zeroElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="14" lineNum="39" parent="globals" pc="268436133" symbol="zeroElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="14" lineNum="40" parent="globals" pc="268436156" symbol="zeroElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="15" lineNum="8" parent="globals/ArrivalAtFinishView" pc="268436159" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="16" lineNum="21" parent="globals/ArrivalAtFinishView" pc="268436178" symbol="onTimerLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="16" lineNum="22" parent="globals/ArrivalAtFinishView" pc="268436182" symbol="onTimerLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="16" lineNum="23" parent="globals/ArrivalAtFinishView" pc="268436199" symbol="onTimerLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="16" lineNum="24" parent="globals/ArrivalAtFinishView" pc="268436245" symbol="onTimerLap"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="31" parent="globals/ArrivalAtFinishView" pc="268436283" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="32" parent="globals/ArrivalAtFinishView" pc="268436287" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="33" parent="globals/ArrivalAtFinishView" pc="268436327" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="35" parent="globals/ArrivalAtFinishView" pc="268436340" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="36" parent="globals/ArrivalAtFinishView" pc="268436371" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="38" parent="globals/ArrivalAtFinishView" pc="268436399" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="39" parent="globals/ArrivalAtFinishView" pc="268436410" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="42" parent="globals/ArrivalAtFinishView" pc="268436419" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="43" parent="globals/ArrivalAtFinishView" pc="268436426" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="44" parent="globals/ArrivalAtFinishView" pc="268436457" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="45" parent="globals/ArrivalAtFinishView" pc="268436468" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="48" parent="globals/ArrivalAtFinishView" pc="268436475" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="49" parent="globals/ArrivalAtFinishView" pc="268436486" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="52" parent="globals/ArrivalAtFinishView" pc="268436495" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="54" parent="globals/ArrivalAtFinishView" pc="268436505" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="56" parent="globals/ArrivalAtFinishView" pc="268436512" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="57" parent="globals/ArrivalAtFinishView" pc="268436519" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="58" parent="globals/ArrivalAtFinishView" pc="268436527" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="59" parent="globals/ArrivalAtFinishView" pc="268436543" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="62" parent="globals/ArrivalAtFinishView" pc="268436597" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="64" parent="globals/ArrivalAtFinishView" pc="268436636" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="66" parent="globals/ArrivalAtFinishView" pc="268436684" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="68" parent="globals/ArrivalAtFinishView" pc="268436697" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="69" parent="globals/ArrivalAtFinishView" pc="268436707" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="70" parent="globals/ArrivalAtFinishView" pc="268436729" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="73" parent="globals/ArrivalAtFinishView" pc="268436742" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="75" parent="globals/ArrivalAtFinishView" pc="268436762" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="83" parent="globals/ArrivalAtFinishView" pc="268436841" symbol="compute"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="18" lineNum="27" parent="globals/ArrivalAtFinishView" pc="268436844" symbol="is24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="18" lineNum="28" parent="globals/ArrivalAtFinishView" pc="268436846" symbol="is24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="13" parent="globals/ArrivalAtFinishView" pc="268436868" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="14" parent="globals/ArrivalAtFinishView" pc="268436870" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="15" parent="globals/ArrivalAtFinishView" pc="268436888" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="17" parent="globals/ArrivalAtFinishView" pc="268436901" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="18" parent="globals/ArrivalAtFinishView" pc="268436923" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="93" parent="globals" pc="268436937" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="95" parent="globals" pc="268436949" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="96" parent="globals" pc="268436966" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="97" parent="globals" pc="268436990" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="98" parent="globals" pc="268437014" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="99" parent="globals" pc="268437029" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="100" parent="globals" pc="268437062" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="101" parent="globals" pc="268437110" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="20" lineNum="108" parent="globals" pc="268437214" symbol="distanceWithLap24Hour"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="21" lineNum="10" parent="globals/RunNoEvil" pc="268437217" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="22" lineNum="40" parent="globals/RunNoEvil" pc="268437236" symbol="getNumberOfTests"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="22" lineNum="41" parent="globals/RunNoEvil" pc="268437238" symbol="getNumberOfTests"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="21" parent="globals/RunNoEvil" pc="268437256" symbol="getIndexOf"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="22" parent="globals/RunNoEvil" pc="268437260" symbol="getIndexOf"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="23" parent="globals/RunNoEvil" pc="268437277" symbol="getIndexOf"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="26" parent="globals/RunNoEvil" pc="268437300" symbol="getIndexOf"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="27" parent="globals/RunNoEvil" pc="268437319" symbol="getIndexOf"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="28" parent="globals/RunNoEvil" pc="268437334" symbol="getIndexOf"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="29" parent="globals/RunNoEvil" pc="268437359" symbol="getIndexOf"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="33" parent="globals/RunNoEvil" pc="268437378" symbol="getIndexOf"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="24" lineNum="44" parent="globals/RunNoEvil" pc="268437384" symbol="populate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="24" lineNum="45" parent="globals/RunNoEvil" pc="268437386" symbol="populate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="24" lineNum="46" parent="globals/RunNoEvil" pc="268437405" symbol="populate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="24" lineNum="47" parent="globals/RunNoEvil" pc="268437424" symbol="populate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="24" lineNum="48" parent="globals/RunNoEvil" pc="268437443" symbol="populate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="14" parent="globals/RunNoEvil" pc="268437463" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="15" parent="globals/RunNoEvil" pc="268437465" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="16" parent="globals/RunNoEvil" pc="268437487" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="17" parent="globals/RunNoEvil" pc="268437521" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="18" parent="globals/RunNoEvil" pc="268437535" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="66" parent="globals/RunNoEvil" pc="268437548" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="67" parent="globals/RunNoEvil" pc="268437552" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="68" parent="globals/RunNoEvil" pc="268437556" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="69" parent="globals/RunNoEvil" pc="268437574" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="72" parent="globals/RunNoEvil" pc="268437592" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="73" parent="globals/RunNoEvil" pc="268437626" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="74" parent="globals/RunNoEvil" pc="268437630" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="75" parent="globals/RunNoEvil" pc="268437641" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="78" parent="globals/RunNoEvil" pc="268437667" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="79" parent="globals/RunNoEvil" pc="268437685" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="82" parent="globals/RunNoEvil" pc="268437691" symbol="runTest"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="36" parent="globals/RunNoEvil" pc="268437694" symbol="getTestName"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="37" parent="globals/RunNoEvil" pc="268437696" symbol="getTestName"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="51" parent="globals/RunNoEvil" pc="268437708" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="52" parent="globals/RunNoEvil" pc="268437712" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="53" parent="globals/RunNoEvil" pc="268437716" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="54" parent="globals/RunNoEvil" pc="268437727" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="55" parent="globals/RunNoEvil" pc="268437749" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="56" parent="globals/RunNoEvil" pc="268437760" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="57" parent="globals/RunNoEvil" pc="268437782" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="58" parent="globals/RunNoEvil" pc="268437793" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="59" parent="globals/RunNoEvil" pc="268437815" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="60" parent="globals/RunNoEvil" pc="268437826" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="63" parent="globals/RunNoEvil" pc="268437848" symbol="evaluate_test_entries_0_to_4"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="29" lineNum="5" parent="globals/ArrivalAtFinishApp" pc="268437851" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="30" lineNum="12" parent="globals/ArrivalAtFinishApp" pc="268437870" symbol="onStart"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="31" lineNum="20" parent="globals/ArrivalAtFinishApp" pc="268437873" symbol="getInitialView"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="31" lineNum="21" parent="globals/ArrivalAtFinishApp" pc="268437875" symbol="getInitialView"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="32" lineNum="7" parent="globals/ArrivalAtFinishApp" pc="268437916" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="32" lineNum="8" parent="globals/ArrivalAtFinishApp" pc="268437918" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="33" lineNum="16" parent="globals/ArrivalAtFinishApp" pc="268437937" symbol="onStop"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="34" lineNum="25" parent="globals/MockActivityInfoZeroElapsedTime" pc="268437940" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="35" lineNum="28" parent="globals/MockActivityInfoZeroElapsedTime" pc="268437959" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="35" lineNum="29" parent="globals/MockActivityInfoZeroElapsedTime" pc="268437961" symbol="initialize"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="36" lineNum="15" parent="globals" pc="268437984" symbol="nullElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="36" lineNum="17" parent="globals" pc="268437996" symbol="nullElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="36" lineNum="18" parent="globals" pc="268438013" symbol="nullElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="36" lineNum="19" parent="globals" pc="268438037" symbol="nullElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="36" lineNum="20" parent="globals" pc="268438061" symbol="nullElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="36" lineNum="21" parent="globals" pc="268438076" symbol="nullElapsedTime"/>
-        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="36" lineNum="22" parent="globals" pc="268438099" symbol="nullElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="5" lineNum="43" parent="globals/MockActivityInfoWithoutDistance" pc="268435829" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="6" lineNum="47" parent="globals/MockActivityInfoWithoutDistance" pc="268435848" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="6" lineNum="48" parent="globals/MockActivityInfoWithoutDistance" pc="268435850" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="7" lineNum="64" parent="globals/MockActivityInfoWithoutLap" pc="268435873" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="8" lineNum="69" parent="globals/MockActivityInfoWithoutLap" pc="268435892" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="8" lineNum="70" parent="globals/MockActivityInfoWithoutLap" pc="268435894" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="9" lineNum="92" parent="globals/MockActivityInfoWithLap" pc="268435917" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="10" lineNum="97" parent="globals/MockActivityInfoWithLap" pc="268435936" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="10" lineNum="98" parent="globals/MockActivityInfoWithLap" pc="268435938" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="11" lineNum="102" parent="globals/Mock24HourArrivalAtFinishView" pc="268435961" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="12" lineNum="109" parent="globals/Mock24HourArrivalAtFinishView" pc="268435980" symbol="is24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="12" lineNum="110" parent="globals/Mock24HourArrivalAtFinishView" pc="268435982" symbol="is24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="13" lineNum="103" parent="globals/Mock24HourArrivalAtFinishView" pc="268435985" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="13" lineNum="104" parent="globals/Mock24HourArrivalAtFinishView" pc="268435987" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="13" lineNum="105" parent="globals/Mock24HourArrivalAtFinishView" pc="268436005" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="13" lineNum="106" parent="globals/Mock24HourArrivalAtFinishView" pc="268436027" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="14" lineNum="7" parent="globals/MockActivityInfoNullElapsedTime" pc="268436041" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="15" lineNum="10" parent="globals/MockActivityInfoNullElapsedTime" pc="268436060" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="15" lineNum="11" parent="globals/MockActivityInfoNullElapsedTime" pc="268436062" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="16" lineNum="33" parent="globals" pc="268436085" symbol="zeroElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="16" lineNum="35" parent="globals" pc="268436097" symbol="zeroElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="16" lineNum="36" parent="globals" pc="268436114" symbol="zeroElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="16" lineNum="37" parent="globals" pc="268436138" symbol="zeroElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="16" lineNum="38" parent="globals" pc="268436162" symbol="zeroElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="16" lineNum="39" parent="globals" pc="268436177" symbol="zeroElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="16" lineNum="40" parent="globals" pc="268436200" symbol="zeroElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="17" lineNum="8" parent="globals/ArrivalAtFinishView" pc="268436203" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="18" lineNum="21" parent="globals/ArrivalAtFinishView" pc="268436222" symbol="onTimerLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="18" lineNum="22" parent="globals/ArrivalAtFinishView" pc="268436226" symbol="onTimerLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="18" lineNum="23" parent="globals/ArrivalAtFinishView" pc="268436243" symbol="onTimerLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="18" lineNum="24" parent="globals/ArrivalAtFinishView" pc="268436289" symbol="onTimerLap"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="31" parent="globals/ArrivalAtFinishView" pc="268436327" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="32" parent="globals/ArrivalAtFinishView" pc="268436331" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="33" parent="globals/ArrivalAtFinishView" pc="268436371" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="35" parent="globals/ArrivalAtFinishView" pc="268436384" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="36" parent="globals/ArrivalAtFinishView" pc="268436415" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="38" parent="globals/ArrivalAtFinishView" pc="268436443" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="39" parent="globals/ArrivalAtFinishView" pc="268436454" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="42" parent="globals/ArrivalAtFinishView" pc="268436463" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="43" parent="globals/ArrivalAtFinishView" pc="268436470" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="44" parent="globals/ArrivalAtFinishView" pc="268436501" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="45" parent="globals/ArrivalAtFinishView" pc="268436512" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="48" parent="globals/ArrivalAtFinishView" pc="268436519" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="49" parent="globals/ArrivalAtFinishView" pc="268436530" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="52" parent="globals/ArrivalAtFinishView" pc="268436539" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="53" parent="globals/ArrivalAtFinishView" pc="268436552" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="56" parent="globals/ArrivalAtFinishView" pc="268436561" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="58" parent="globals/ArrivalAtFinishView" pc="268436571" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="60" parent="globals/ArrivalAtFinishView" pc="268436578" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="61" parent="globals/ArrivalAtFinishView" pc="268436585" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="62" parent="globals/ArrivalAtFinishView" pc="268436593" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="63" parent="globals/ArrivalAtFinishView" pc="268436609" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="66" parent="globals/ArrivalAtFinishView" pc="268436663" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="68" parent="globals/ArrivalAtFinishView" pc="268436702" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="70" parent="globals/ArrivalAtFinishView" pc="268436750" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="72" parent="globals/ArrivalAtFinishView" pc="268436763" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="73" parent="globals/ArrivalAtFinishView" pc="268436773" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="74" parent="globals/ArrivalAtFinishView" pc="268436795" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="77" parent="globals/ArrivalAtFinishView" pc="268436808" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="79" parent="globals/ArrivalAtFinishView" pc="268436828" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="19" lineNum="87" parent="globals/ArrivalAtFinishView" pc="268436907" symbol="compute"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="20" lineNum="27" parent="globals/ArrivalAtFinishView" pc="268436910" symbol="is24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="20" lineNum="28" parent="globals/ArrivalAtFinishView" pc="268436912" symbol="is24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="21" lineNum="13" parent="globals/ArrivalAtFinishView" pc="268436934" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="21" lineNum="14" parent="globals/ArrivalAtFinishView" pc="268436936" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="21" lineNum="15" parent="globals/ArrivalAtFinishView" pc="268436954" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="21" lineNum="17" parent="globals/ArrivalAtFinishView" pc="268436967" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishView.mc" id="21" lineNum="18" parent="globals/ArrivalAtFinishView" pc="268436989" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="114" parent="globals" pc="268437003" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="116" parent="globals" pc="268437015" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="117" parent="globals" pc="268437032" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="118" parent="globals" pc="268437056" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="119" parent="globals" pc="268437080" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="120" parent="globals" pc="268437095" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="121" parent="globals" pc="268437128" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="122" parent="globals" pc="268437176" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="22" lineNum="129" parent="globals" pc="268437280" symbol="distanceWithLap24Hour"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="23" lineNum="10" parent="globals/RunNoEvil" pc="268437283" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="24" lineNum="40" parent="globals/RunNoEvil" pc="268437302" symbol="getNumberOfTests"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="24" lineNum="41" parent="globals/RunNoEvil" pc="268437304" symbol="getNumberOfTests"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="21" parent="globals/RunNoEvil" pc="268437322" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="22" parent="globals/RunNoEvil" pc="268437326" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="23" parent="globals/RunNoEvil" pc="268437343" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="26" parent="globals/RunNoEvil" pc="268437366" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="27" parent="globals/RunNoEvil" pc="268437385" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="28" parent="globals/RunNoEvil" pc="268437400" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="29" parent="globals/RunNoEvil" pc="268437425" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="25" lineNum="33" parent="globals/RunNoEvil" pc="268437444" symbol="getIndexOf"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="44" parent="globals/RunNoEvil" pc="268437450" symbol="populate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="45" parent="globals/RunNoEvil" pc="268437452" symbol="populate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="46" parent="globals/RunNoEvil" pc="268437471" symbol="populate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="47" parent="globals/RunNoEvil" pc="268437490" symbol="populate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="48" parent="globals/RunNoEvil" pc="268437509" symbol="populate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="26" lineNum="49" parent="globals/RunNoEvil" pc="268437528" symbol="populate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="14" parent="globals/RunNoEvil" pc="268437548" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="15" parent="globals/RunNoEvil" pc="268437550" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="16" parent="globals/RunNoEvil" pc="268437572" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="17" parent="globals/RunNoEvil" pc="268437606" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="27" lineNum="18" parent="globals/RunNoEvil" pc="268437620" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="52" parent="globals/RunNoEvil" pc="268437633" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="53" parent="globals/RunNoEvil" pc="268437637" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="54" parent="globals/RunNoEvil" pc="268437641" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="55" parent="globals/RunNoEvil" pc="268437652" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="56" parent="globals/RunNoEvil" pc="268437674" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="57" parent="globals/RunNoEvil" pc="268437685" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="58" parent="globals/RunNoEvil" pc="268437707" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="59" parent="globals/RunNoEvil" pc="268437718" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="60" parent="globals/RunNoEvil" pc="268437740" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="61" parent="globals/RunNoEvil" pc="268437751" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="62" parent="globals/RunNoEvil" pc="268437773" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="63" parent="globals/RunNoEvil" pc="268437784" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="28" lineNum="66" parent="globals/RunNoEvil" pc="268437806" symbol="evaluate_test_entries_0_to_5"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="69" parent="globals/RunNoEvil" pc="268437809" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="70" parent="globals/RunNoEvil" pc="268437813" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="71" parent="globals/RunNoEvil" pc="268437817" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="72" parent="globals/RunNoEvil" pc="268437835" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="75" parent="globals/RunNoEvil" pc="268437853" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="76" parent="globals/RunNoEvil" pc="268437887" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="77" parent="globals/RunNoEvil" pc="268437891" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="78" parent="globals/RunNoEvil" pc="268437902" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="81" parent="globals/RunNoEvil" pc="268437928" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="82" parent="globals/RunNoEvil" pc="268437946" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="29" lineNum="85" parent="globals/RunNoEvil" pc="268437952" symbol="runTest"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="36" parent="globals/RunNoEvil" pc="268437955" symbol="getTestName"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/bin/gen/006-B3843-00/source/UnitTests.mcgen" id="30" lineNum="37" parent="globals/RunNoEvil" pc="268437957" symbol="getTestName"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="31" lineNum="5" parent="globals/ArrivalAtFinishApp" pc="268437969" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="32" lineNum="12" parent="globals/ArrivalAtFinishApp" pc="268437988" symbol="onStart"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="33" lineNum="20" parent="globals/ArrivalAtFinishApp" pc="268437991" symbol="getInitialView"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="33" lineNum="21" parent="globals/ArrivalAtFinishApp" pc="268437993" symbol="getInitialView"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="34" lineNum="7" parent="globals/ArrivalAtFinishApp" pc="268438034" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="34" lineNum="8" parent="globals/ArrivalAtFinishApp" pc="268438036" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishApp.mc" id="35" lineNum="16" parent="globals/ArrivalAtFinishApp" pc="268438055" symbol="onStop"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="36" lineNum="25" parent="globals/MockActivityInfoZeroElapsedTime" pc="268438058" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="37" lineNum="28" parent="globals/MockActivityInfoZeroElapsedTime" pc="268438077" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="37" lineNum="29" parent="globals/MockActivityInfoZeroElapsedTime" pc="268438079" symbol="initialize"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="52" parent="globals" pc="268438102" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="54" parent="globals" pc="268438114" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="55" parent="globals" pc="268438131" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="56" parent="globals" pc="268438155" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="57" parent="globals" pc="268438179" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="58" parent="globals" pc="268438194" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="59" parent="globals" pc="268438227" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="60" parent="globals" pc="268438275" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="38" lineNum="61" parent="globals" pc="268438298" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="39" lineNum="15" parent="globals" pc="268438301" symbol="nullElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="39" lineNum="17" parent="globals" pc="268438313" symbol="nullElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="39" lineNum="18" parent="globals" pc="268438330" symbol="nullElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="39" lineNum="19" parent="globals" pc="268438354" symbol="nullElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="39" lineNum="20" parent="globals" pc="268438378" symbol="nullElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="39" lineNum="21" parent="globals" pc="268438393" symbol="nullElapsedTime"/>
+        <entry filename="/Users/mattdavies/Code/pedalgeek/ArrivalAtFinish/source/ArrivalAtFinishTest.mc" id="39" lineNum="22" parent="globals" pc="268438416" symbol="nullElapsedTime"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="8389792" method="true" symbol="getTestName"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="18" method="true" symbol="nullElapsedTime"/>
+        <entry id="20" method="true" symbol="nullElapsedTime"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="27" symbol="&lt;globals/RunNoEvil/&lt;&gt;idToName&gt;"/>
-        <entry field="true" id="28" symbol="&lt;globals/RunNoEvil/&lt;&gt;logger&gt;"/>
-        <entry id="25" method="true" symbol="evaluate_test_entries_0_to_4"/>
-        <entry id="16" object="true" symbol="RunNoEvil"/>
+        <entry field="true" id="29" symbol="&lt;globals/RunNoEvil/&lt;&gt;idToName&gt;"/>
+        <entry id="14" object="true" symbol="MockActivityInfoWithoutDistance"/>
+        <entry field="true" id="30" symbol="&lt;globals/RunNoEvil/&lt;&gt;logger&gt;"/>
+        <entry id="27" method="true" symbol="evaluate_test_entries_0_to_5"/>
+        <entry id="19" method="true" symbol="doesNotCrashIfDistanceNotSet"/>
+        <entry id="17" object="true" symbol="RunNoEvil"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="8388649" module="true" object="true" symbol="Test"/>
-        <entry id="20" method="true" symbol="zeroElapsedTime"/>
-        <entry field="true" id="31" symbol="AppName"/>
+        <entry id="22" method="true" symbol="zeroElapsedTime"/>
+        <entry field="true" id="33" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="11" object="true" symbol="Mock24HourArrivalAtFinishView"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
@@ -174,13 +193,13 @@
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry id="8389568" method="true" symbol="runTest"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry id="22" module="true" symbol="Menus"/>
+        <entry id="24" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="13" object="true" symbol="MockActivityInfoWithLap"/>
         <entry id="8389137" method="true" symbol="compute"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-        <entry id="26" method="true" symbol="getIndexOf"/>
+        <entry id="28" method="true" symbol="getIndexOf"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="9" object="true" symbol="ArrivalAtFinishApp"/>
         <entry id="8389823" method="true" symbol="indexOf"/>
@@ -188,29 +207,29 @@
         <entry field="true" id="8389401" method="true" symbol="is24Hour"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="23" symbol="lapStartDistance"/>
-        <entry id="29" method="true" symbol="populate_test_entries_0_to_4"/>
+        <entry field="true" id="25" symbol="lapStartDistance"/>
+        <entry id="31" method="true" symbol="populate_test_entries_0_to_5"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="19" method="true" symbol="withoutLap"/>
+        <entry id="21" method="true" symbol="withoutLap"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="24" symbol="lapStartTime"/>
-        <entry field="true" id="30" symbol="LauncherIcon"/>
+        <entry field="true" id="26" symbol="lapStartTime"/>
+        <entry field="true" id="32" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389567" method="true" symbol="getNumberOfTests"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="14" object="true" symbol="MockActivityInfoWithoutLap"/>
+        <entry id="15" object="true" symbol="MockActivityInfoWithoutLap"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry id="17" method="true" symbol="distanceWithLap24Hour"/>
+        <entry id="18" method="true" symbol="distanceWithLap24Hour"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="10" object="true" symbol="ArrivalAtFinishView"/>
         <entry id="8389751" method="true" symbol="onTimerLap"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="15" object="true" symbol="MockActivityInfoZeroElapsedTime"/>
+        <entry id="16" object="true" symbol="MockActivityInfoZeroElapsedTime"/>
         <entry field="true" id="8388732" symbol="elapsedTime"/>
         <entry field="true" id="8388734" symbol="elapsedDistance"/>
-        <entry id="21" module="true" symbol="Layouts"/>
+        <entry id="23" module="true" symbol="Layouts"/>
         <entry id="12" object="true" symbol="MockActivityInfoNullElapsedTime"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
         <entry field="true" id="8389923" symbol="distanceToDestination"/>
@@ -224,48 +243,54 @@
         <entry endPc="268435804" name="value" stackId="4" startPc="268435531"/>
         <entry endPc="268435804" name="timeToNext" stackId="5" startPc="268435531"/>
         <entry endPc="268435804" name="eta" stackId="6" startPc="268435531"/>
-        <entry arg="true" endPc="268436158" name="logger" stackId="1" startPc="268436041"/>
-        <entry endPc="268436158" name="view" stackId="2" startPc="268436053"/>
-        <entry endPc="268436158" name="info" stackId="3" startPc="268436053"/>
-        <entry endPc="268436158" name="value" stackId="4" startPc="268436053"/>
-        <entry endPc="268436281" name="info" stackId="1" startPc="268436182"/>
-        <entry arg="true" endPc="268436843" name="info" stackId="1" startPc="268436283"/>
-        <entry endPc="268436843" name="elapsedDistance" stackId="2" startPc="268436287"/>
-        <entry endPc="268436843" name="currentLapDistance" stackId="3" startPc="268436287"/>
-        <entry endPc="268436843" name="elapsedTime" stackId="4" startPc="268436287"/>
-        <entry endPc="268436843" name="currentLapTime" stackId="5" startPc="268436287"/>
-        <entry endPc="268436843" name="lapAvgSpeed" stackId="6" startPc="268436287"/>
-        <entry endPc="268436843" name="currentSpeed" stackId="7" startPc="268436287"/>
-        <entry endPc="268436843" name="distanceToDestination" stackId="8" startPc="268436287"/>
-        <entry endPc="268436843" name="timeToNextInSeconds" stackId="9" startPc="268436287"/>
-        <entry endPc="268436843" name="aDayInSeconds" stackId="10" startPc="268436287"/>
-        <entry endPc="268436593" name="timeInDays" stackId="11" startPc="268436527"/>
-        <entry endPc="268436843" name="timeToNext" stackId="12" startPc="268436287"/>
-        <entry endPc="268436843" name="eta" stackId="13" startPc="268436287"/>
-        <entry endPc="268436843" name="is24Hour" stackId="14" startPc="268436287"/>
-        <entry endPc="268436843" name="etaHour" stackId="15" startPc="268436287"/>
-        <entry endPc="268436843" name="hourFormat" stackId="16" startPc="268436287"/>
-        <entry endPc="268436843" name="timeString" stackId="17" startPc="268436287"/>
-        <entry arg="true" endPc="268437216" name="logger" stackId="1" startPc="268436937"/>
-        <entry endPc="268437216" name="view" stackId="2" startPc="268436949"/>
-        <entry endPc="268437216" name="info" stackId="3" startPc="268436949"/>
-        <entry endPc="268437216" name="value" stackId="4" startPc="268436949"/>
-        <entry endPc="268437216" name="timeToNext" stackId="5" startPc="268436949"/>
-        <entry endPc="268437216" name="eta" stackId="6" startPc="268436949"/>
-        <entry arg="true" endPc="268437383" name="name" stackId="1" startPc="268437256"/>
-        <entry endPc="268437383" name="j" stackId="2" startPc="268437260"/>
-        <entry endPc="268437377" name="i" stackId="3" startPc="268437334"/>
-        <entry arg="true" endPc="268437693" name="test" stackId="1" startPc="268437548"/>
-        <entry endPc="268437693" name="id" stackId="2" startPc="268437552"/>
-        <entry endPc="268437693" name="result" stackId="3" startPc="268437552"/>
-        <entry arg="true" endPc="268437707" name="id" stackId="1" startPc="268437694"/>
-        <entry arg="true" endPc="268437850" name="id" stackId="1" startPc="268437708"/>
-        <entry arg="true" endPc="268437850" name="logger" stackId="2" startPc="268437708"/>
-        <entry endPc="268437850" name="result" stackId="3" startPc="268437712"/>
-        <entry arg="true" endPc="268438101" name="logger" stackId="1" startPc="268437984"/>
-        <entry endPc="268438101" name="view" stackId="2" startPc="268437996"/>
-        <entry endPc="268438101" name="info" stackId="3" startPc="268437996"/>
-        <entry endPc="268438101" name="value" stackId="4" startPc="268437996"/>
+        <entry arg="true" endPc="268436202" name="logger" stackId="1" startPc="268436085"/>
+        <entry endPc="268436202" name="view" stackId="2" startPc="268436097"/>
+        <entry endPc="268436202" name="info" stackId="3" startPc="268436097"/>
+        <entry endPc="268436202" name="value" stackId="4" startPc="268436097"/>
+        <entry endPc="268436325" name="info" stackId="1" startPc="268436226"/>
+        <entry arg="true" endPc="268436909" name="info" stackId="1" startPc="268436327"/>
+        <entry endPc="268436909" name="elapsedDistance" stackId="2" startPc="268436331"/>
+        <entry endPc="268436909" name="currentLapDistance" stackId="3" startPc="268436331"/>
+        <entry endPc="268436909" name="elapsedTime" stackId="4" startPc="268436331"/>
+        <entry endPc="268436909" name="currentLapTime" stackId="5" startPc="268436331"/>
+        <entry endPc="268436909" name="lapAvgSpeed" stackId="6" startPc="268436331"/>
+        <entry endPc="268436909" name="currentSpeed" stackId="7" startPc="268436331"/>
+        <entry endPc="268436909" name="distanceToDestination" stackId="8" startPc="268436331"/>
+        <entry endPc="268436909" name="timeToNextInSeconds" stackId="9" startPc="268436331"/>
+        <entry endPc="268436909" name="aDayInSeconds" stackId="10" startPc="268436331"/>
+        <entry endPc="268436659" name="timeInDays" stackId="11" startPc="268436593"/>
+        <entry endPc="268436909" name="timeToNext" stackId="12" startPc="268436331"/>
+        <entry endPc="268436909" name="eta" stackId="13" startPc="268436331"/>
+        <entry endPc="268436909" name="is24Hour" stackId="14" startPc="268436331"/>
+        <entry endPc="268436909" name="etaHour" stackId="15" startPc="268436331"/>
+        <entry endPc="268436909" name="hourFormat" stackId="16" startPc="268436331"/>
+        <entry endPc="268436909" name="timeString" stackId="17" startPc="268436331"/>
+        <entry arg="true" endPc="268437282" name="logger" stackId="1" startPc="268437003"/>
+        <entry endPc="268437282" name="view" stackId="2" startPc="268437015"/>
+        <entry endPc="268437282" name="info" stackId="3" startPc="268437015"/>
+        <entry endPc="268437282" name="value" stackId="4" startPc="268437015"/>
+        <entry endPc="268437282" name="timeToNext" stackId="5" startPc="268437015"/>
+        <entry endPc="268437282" name="eta" stackId="6" startPc="268437015"/>
+        <entry arg="true" endPc="268437449" name="name" stackId="1" startPc="268437322"/>
+        <entry endPc="268437449" name="j" stackId="2" startPc="268437326"/>
+        <entry endPc="268437443" name="i" stackId="3" startPc="268437400"/>
+        <entry arg="true" endPc="268437808" name="id" stackId="1" startPc="268437633"/>
+        <entry arg="true" endPc="268437808" name="logger" stackId="2" startPc="268437633"/>
+        <entry endPc="268437808" name="result" stackId="3" startPc="268437637"/>
+        <entry arg="true" endPc="268437954" name="test" stackId="1" startPc="268437809"/>
+        <entry endPc="268437954" name="id" stackId="2" startPc="268437813"/>
+        <entry endPc="268437954" name="result" stackId="3" startPc="268437813"/>
+        <entry arg="true" endPc="268437968" name="id" stackId="1" startPc="268437955"/>
+        <entry arg="true" endPc="268438300" name="logger" stackId="1" startPc="268438102"/>
+        <entry endPc="268438300" name="view" stackId="2" startPc="268438114"/>
+        <entry endPc="268438300" name="info" stackId="3" startPc="268438114"/>
+        <entry endPc="268438300" name="value" stackId="4" startPc="268438114"/>
+        <entry endPc="268438300" name="timeToNext" stackId="5" startPc="268438114"/>
+        <entry endPc="268438300" name="eta" stackId="6" startPc="268438114"/>
+        <entry arg="true" endPc="268438418" name="logger" stackId="1" startPc="268438301"/>
+        <entry endPc="268438418" name="view" stackId="2" startPc="268438313"/>
+        <entry endPc="268438418" name="info" stackId="3" startPc="268438313"/>
+        <entry endPc="268438418" name="value" stackId="4" startPc="268438313"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="idToName"/>
@@ -273,35 +298,37 @@
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="logger"/>
         <annotationEntry annotation="test" class="globals" module="" symbol="distanceWithLap24Hour"/>
-        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="populate_test_entries_0_to_4"/>
         <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="populate_test_entries_0_to_5"/>
+        <annotationEntry annotation="test" class="globals" module="" symbol="doesNotCrashIfDistanceNotSet"/>
         <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="runTest"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
         <annotationEntry annotation="test" class="globals" module="" symbol="nullElapsedTime"/>
         <annotationEntry annotation="test" class="globals" module="" symbol="withoutLap"/>
         <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getNumberOfTests"/>
         <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getTestName"/>
-        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="evaluate_test_entries_0_to_4"/>
         <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="getIndexOf"/>
         <annotationEntry annotation="test" class="globals" module="" symbol="zeroElapsedTime"/>
+        <annotationEntry annotation="typecheck" class="RunNoEvil" module="globals" symbol="evaluate_test_entries_0_to_5"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/Rez" offset="246" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/MockActivityInfoWithoutLap" offset="325" parentId="globals" symbolId="MockActivityInfoWithoutLap" type="class"/>
-        <dataEntry label="globals/MockActivityInfoWithLap" offset="396" parentId="globals" symbolId="MockActivityInfoWithLap" type="class"/>
-        <dataEntry label="globals/Mock24HourArrivalAtFinishView" offset="467" parentId="globals" symbolId="Mock24HourArrivalAtFinishView" type="class"/>
-        <dataEntry label="globals/MockActivityInfoNullElapsedTime" offset="522" parentId="globals" symbolId="MockActivityInfoNullElapsedTime" type="class"/>
-        <dataEntry label="globals/ArrivalAtFinishView" offset="577" parentId="globals" symbolId="ArrivalAtFinishView" type="class"/>
-        <dataEntry label="globals/RunNoEvil" offset="664" parentId="globals" symbolId="RunNoEvil" type="class"/>
-        <dataEntry label="globals/ArrivalAtFinishApp" offset="775" parentId="globals" symbolId="ArrivalAtFinishApp" type="class"/>
-        <dataEntry label="globals/MockActivityInfoZeroElapsedTime" offset="846" parentId="globals" symbolId="MockActivityInfoZeroElapsedTime" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="901" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="940" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="971" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="1002" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1033" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="1072" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez" offset="262" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/MockActivityInfoWithoutDistance" offset="341" parentId="globals" symbolId="MockActivityInfoWithoutDistance" type="class"/>
+        <dataEntry label="globals/MockActivityInfoWithoutLap" offset="404" parentId="globals" symbolId="MockActivityInfoWithoutLap" type="class"/>
+        <dataEntry label="globals/MockActivityInfoWithLap" offset="475" parentId="globals" symbolId="MockActivityInfoWithLap" type="class"/>
+        <dataEntry label="globals/Mock24HourArrivalAtFinishView" offset="546" parentId="globals" symbolId="Mock24HourArrivalAtFinishView" type="class"/>
+        <dataEntry label="globals/MockActivityInfoNullElapsedTime" offset="601" parentId="globals" symbolId="MockActivityInfoNullElapsedTime" type="class"/>
+        <dataEntry label="globals/ArrivalAtFinishView" offset="656" parentId="globals" symbolId="ArrivalAtFinishView" type="class"/>
+        <dataEntry label="globals/RunNoEvil" offset="743" parentId="globals" symbolId="RunNoEvil" type="class"/>
+        <dataEntry label="globals/ArrivalAtFinishApp" offset="854" parentId="globals" symbolId="ArrivalAtFinishApp" type="class"/>
+        <dataEntry label="globals/MockActivityInfoZeroElapsedTime" offset="925" parentId="globals" symbolId="MockActivityInfoZeroElapsedTime" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="980" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1019" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1050" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1081" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1112" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1151" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435492" name="getTestObject" startPc="268435460">
@@ -317,110 +344,120 @@
         <functionEntry accessMode="public" endPc="268435828" name="&lt;init&gt;" parent="Rez" startPc="268435805">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435847" name="&lt;init&gt;" parent="MockActivityInfoWithoutLap" startPc="268435829">
+        <functionEntry accessMode="public" endPc="268435847" name="&lt;init&gt;" parent="MockActivityInfoWithoutDistance" startPc="268435829">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435872" name="initialize" parent="MockActivityInfoWithoutLap" startPc="268435848">
+        <functionEntry accessMode="public" endPc="268435872" name="initialize" parent="MockActivityInfoWithoutDistance" startPc="268435848">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435891" name="&lt;init&gt;" parent="MockActivityInfoWithLap" startPc="268435873">
+        <functionEntry accessMode="public" endPc="268435891" name="&lt;init&gt;" parent="MockActivityInfoWithoutLap" startPc="268435873">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435916" name="initialize" parent="MockActivityInfoWithLap" startPc="268435892">
+        <functionEntry accessMode="public" endPc="268435916" name="initialize" parent="MockActivityInfoWithoutLap" startPc="268435892">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435935" name="&lt;init&gt;" parent="Mock24HourArrivalAtFinishView" startPc="268435917">
+        <functionEntry accessMode="public" endPc="268435935" name="&lt;init&gt;" parent="MockActivityInfoWithLap" startPc="268435917">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435940" name="is24Hour" parent="Mock24HourArrivalAtFinishView" startPc="268435936">
+        <functionEntry accessMode="public" endPc="268435960" name="initialize" parent="MockActivityInfoWithLap" startPc="268435936">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435996" name="initialize" parent="Mock24HourArrivalAtFinishView" startPc="268435941">
+        <functionEntry accessMode="public" endPc="268435979" name="&lt;init&gt;" parent="Mock24HourArrivalAtFinishView" startPc="268435961">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436015" name="&lt;init&gt;" parent="MockActivityInfoNullElapsedTime" startPc="268435997">
+        <functionEntry accessMode="public" endPc="268435984" name="is24Hour" parent="Mock24HourArrivalAtFinishView" startPc="268435980">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436040" name="initialize" parent="MockActivityInfoNullElapsedTime" startPc="268436016">
+        <functionEntry accessMode="public" endPc="268436040" name="initialize" parent="Mock24HourArrivalAtFinishView" startPc="268435985">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436158" name="zeroElapsedTime" startPc="268436041">
+        <functionEntry accessMode="public" endPc="268436059" name="&lt;init&gt;" parent="MockActivityInfoNullElapsedTime" startPc="268436041">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436084" name="initialize" parent="MockActivityInfoNullElapsedTime" startPc="268436060">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436202" name="zeroElapsedTime" startPc="268436085">
             <param id="logger"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436177" name="&lt;init&gt;" parent="ArrivalAtFinishView" startPc="268436159">
+        <functionEntry accessMode="public" endPc="268436221" name="&lt;init&gt;" parent="ArrivalAtFinishView" startPc="268436203">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436282" name="onTimerLap" parent="ArrivalAtFinishView" startPc="268436178">
+        <functionEntry accessMode="public" endPc="268436326" name="onTimerLap" parent="ArrivalAtFinishView" startPc="268436222">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436843" name="compute" parent="ArrivalAtFinishView" startPc="268436283">
+        <functionEntry accessMode="public" endPc="268436909" name="compute" parent="ArrivalAtFinishView" startPc="268436327">
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436867" name="is24Hour" parent="ArrivalAtFinishView" startPc="268436844">
+        <functionEntry accessMode="public" endPc="268436933" name="is24Hour" parent="ArrivalAtFinishView" startPc="268436910">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436936" name="initialize" parent="ArrivalAtFinishView" startPc="268436868">
+        <functionEntry accessMode="public" endPc="268437002" name="initialize" parent="ArrivalAtFinishView" startPc="268436934">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437216" name="distanceWithLap24Hour" startPc="268436937">
+        <functionEntry accessMode="public" endPc="268437282" name="distanceWithLap24Hour" startPc="268437003">
             <param id="logger"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437235" name="&lt;init&gt;" parent="RunNoEvil" startPc="268437217">
+        <functionEntry accessMode="public" endPc="268437301" name="&lt;init&gt;" parent="RunNoEvil" startPc="268437283">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437255" name="getNumberOfTests" parent="RunNoEvil" startPc="268437236">
+        <functionEntry accessMode="public" endPc="268437321" name="getNumberOfTests" parent="RunNoEvil" startPc="268437302">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437383" name="getIndexOf" parent="RunNoEvil" startPc="268437256">
+        <functionEntry accessMode="public" endPc="268437449" name="getIndexOf" parent="RunNoEvil" startPc="268437322">
             <param id="name"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437462" name="populate_test_entries_0_to_4" parent="RunNoEvil" startPc="268437384">
+        <functionEntry accessMode="public" endPc="268437547" name="populate_test_entries_0_to_5" parent="RunNoEvil" startPc="268437450">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437547" name="initialize" parent="RunNoEvil" startPc="268437463">
+        <functionEntry accessMode="public" endPc="268437632" name="initialize" parent="RunNoEvil" startPc="268437548">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437693" name="runTest" parent="RunNoEvil" startPc="268437548">
-            <param id="test"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437707" name="getTestName" parent="RunNoEvil" startPc="268437694">
-            <param id="id"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437850" name="evaluate_test_entries_0_to_4" parent="RunNoEvil" startPc="268437708">
+        <functionEntry accessMode="public" endPc="268437808" name="evaluate_test_entries_0_to_5" parent="RunNoEvil" startPc="268437633">
             <param id="id"/>
             <param id="logger"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437869" name="&lt;init&gt;" parent="ArrivalAtFinishApp" startPc="268437851">
+        <functionEntry accessMode="public" endPc="268437954" name="runTest" parent="RunNoEvil" startPc="268437809">
+            <param id="test"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437872" name="onStart" parent="ArrivalAtFinishApp" startPc="268437870">
+        <functionEntry accessMode="public" endPc="268437968" name="getTestName" parent="RunNoEvil" startPc="268437955">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437987" name="&lt;init&gt;" parent="ArrivalAtFinishApp" startPc="268437969">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437990" name="onStart" parent="ArrivalAtFinishApp" startPc="268437988">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437915" name="getInitialView" parent="ArrivalAtFinishApp" startPc="268437873">
+        <functionEntry accessMode="public" endPc="268438033" name="getInitialView" parent="ArrivalAtFinishApp" startPc="268437991">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437936" name="initialize" parent="ArrivalAtFinishApp" startPc="268437916">
+        <functionEntry accessMode="public" endPc="268438054" name="initialize" parent="ArrivalAtFinishApp" startPc="268438034">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437939" name="onStop" parent="ArrivalAtFinishApp" startPc="268437937">
+        <functionEntry accessMode="public" endPc="268438057" name="onStop" parent="ArrivalAtFinishApp" startPc="268438055">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437958" name="&lt;init&gt;" parent="MockActivityInfoZeroElapsedTime" startPc="268437940">
+        <functionEntry accessMode="public" endPc="268438076" name="&lt;init&gt;" parent="MockActivityInfoZeroElapsedTime" startPc="268438058">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437983" name="initialize" parent="MockActivityInfoZeroElapsedTime" startPc="268437959">
+        <functionEntry accessMode="public" endPc="268438101" name="initialize" parent="MockActivityInfoZeroElapsedTime" startPc="268438077">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438101" name="nullElapsedTime" startPc="268437984">
+        <functionEntry accessMode="public" endPc="268438300" name="doesNotCrashIfDistanceNotSet" startPc="268438102">
+            <param id="logger"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438418" name="nullElapsedTime" startPc="268438301">
             <param id="logger"/>
             <documentation/>
         </functionEntry>
